@@ -167,6 +167,9 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 <link rel="icon" href="wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" />
 <meta name="msapplication-TileImage" content="https://denzel.blec.co.za/wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" />
+<!-- Bootstrap CSS -->
+<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
 <style id="wpforms-css-vars-root">
 				:root {
 					--wpforms-field-border-radius: 3px;
@@ -198,7 +201,9 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 --wpforms-button-size-margin-top: 10px;
 
 				}
-			</style></head>
+			</style>
+			
+		</head>
 
 <body class="home page-template page-template-elementor_header_footer page page-id-953 wp-custom-logo theme-insur woocommerce-no-js custom-cursor woocommerce-active elementor-default elementor-template-full-width elementor-kit-13 elementor-page elementor-page-953">
 	            <div class="custom-cursor__cursor"></div>
@@ -253,9 +258,9 @@ Ferndale, Randburg</p>
 					<div class="main-header__top-right">
 													<div class="main-header__top-menu-box">
 								<ul class="list-unstyled main-header__top-menu">
-																			<li><a href="http://layerdrops.com/insurwp/about/">Make a Claim</a></li>
-																			<li><a href="http://layerdrops.com/insurwp/faqs/">FAQs</a></li>
-																			<li><a href="http://layerdrops.com/insurwp/about/">About</a></li>
+																			<li><a href="#">Make a Claim</a></li>
+																			<li><a href="#">FAQs</a></li>
+																			<li><a href="{{ route('contact.index') }}">About</a></li>
 																	</ul>
 							</div>
 																			<div class="main-header__top-social-box">
@@ -280,14 +285,14 @@ Ferndale, Randburg</p>
 					<div class="main-menu__wrapper-inner clearfix">
 						<div class="main-menu__left">
 							<div class="main-menu__logo">
-								<a href="index.html">
+								<a href="{{ route('home') }}">
 									<img decoding="async" width="140" height="27" src="wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" alt="Friends For Life">
 								</a>
 							</div>
 							<div class="main-menu__main-menu-box">
 								<div class="main-menu__main-menu-box-inner">
 									<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-953 current_page_item megamenu-hide menu-item-2131"><a href="index.html" aria-current="page">Home Dark</a></li>
+									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-953 current_page_item megamenu-hide menu-item-2131"><a href="{{ route('home') }}" aria-current="page">Home Dark</a></li>
 <li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2132"><a href="{{ route('about.index') }}">About</a></li>
 <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
 <ul class="sub-menu">
@@ -310,7 +315,11 @@ Ferndale, Randburg</p>
 																													</div>
 
 																			<div class="main-menu__main-menu-box-get-quote-btn-box">
-											<a   href="http://layerdrops.com/insurwp/contact/" class="thm-btn main-menu__main-menu-box-get-quote-btn">Get a Quote</a>
+										<!-- Button to Open the Modal -->
+<a href="#" class="thm-btn main-menu__main-menu-box-get-quote-btn" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a>
+
+
+
 										</div>
 																	</div>
 							</div>
@@ -1566,6 +1575,41 @@ latest update &amp; news.</p>
         
 </div><!-- #page -->
 
+<!-- The Modal -->
+<div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="getQuoteModalLabel">Get a Quote</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Content for your modal -->
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 	<script>
 		(function () {
 			var c = document.body.className;
@@ -1644,6 +1688,11 @@ var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
 </script>
 <script src="wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min5068.js?ver=1.8.7.2" id="wpforms-elementor-js"></script>
+
+ <!-- Bootstrap JS, Popper.js, and jQuery -->
+ 	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 

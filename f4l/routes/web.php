@@ -9,7 +9,7 @@ use App\Http\Controllers\PetInsuranceController;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 
 Route::get('/about/index', [AboutController::class, 'show'])->name('about.index');
