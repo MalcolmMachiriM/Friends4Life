@@ -294,14 +294,14 @@ Ferndale, Randburg</p>
 	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="{{ route('car-insurance.index') }}">Vehicle Insurance</a></li>
 	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368"><a href="{{ route('medical-insurance.index') }}">Medical Insurance</a></li>
 	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Pet Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Building Insurance</a></li>
+	<!-- <li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Building Insurance</a></li>
 	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Camera Insurance</a></li>
 	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Accident Cover</a></li>
 	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Mobile Devices</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Car Warranty</a></li>
+	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Car Warranty</a></li> -->
 </ul>
 </li>
-<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2134"><a href="contact/index.html">Contact</a></li>
+<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2134"><a href="{{ route('contact.index') }}">Contact</a></li>
 </ul></div>								</div>
 								<div class="main-menu__main-menu-box-search-get-quote-btn">
 
@@ -728,7 +728,7 @@ Ferndale, Randburg</p>
 										<div class="services-one__icon insur-icon-svg">
 											<span aria-hidden="true" class="   icon-drive"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="http://layerdrops.com/insurwp/car-insurance/">Vehicle Insurance</a>
+											<a   href="{{ route('car-insurance.index') }}">Vehicle Insurance</a>
 										</h2>
 										<p class="service-one__text">Your vehicle is more than just a mode of transportation</p>
 									</div>
@@ -745,7 +745,7 @@ Ferndale, Randburg</p>
 										<div class="services-one__icon insur-icon-svg">
 											<span aria-hidden="true" class="   icon-family"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="http://layerdrops.com/insurwp/car-insurance/">Medical Insurance</a>
+											<a   href="{{ route('medical-insurance.index') }}">Medical Insurance</a>
 										</h2>
 										<p class="service-one__text">Your health is your most valuable asset without a doubt.</p>
 									</div>
@@ -762,7 +762,7 @@ Ferndale, Randburg</p>
 										<div class="services-one__icon insur-icon-svg">
 											<svg aria-hidden="true" class="  e-font-icon-svg e-fas-home" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg>										</div>
 										<h2 class="service-one__title">
-											<a   href="http://layerdrops.com/insurwp/car-insurance/">Pet insurance</a>
+											<a   href="{{ route('product-pet-insurance.index') }}">Pet insurance</a>
 										</h2>
 										<p class="service-one__text">Lets keep them happy, healthy and protected</p>
 									</div>
