@@ -1070,7 +1070,10 @@ to get started!</h2>
 			</p>
 </p></div>
 <div class="get-insurance__input-box">
-<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961"><option value="Select type of insurance">Select type of insurance</option><option value="Life insurance">Life insurance</option><option value="Life insurance">Life insurance</option><option value="Home insurance">Home insurance</option></select></span>
+<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961"><option value="Select type of insurance">Select Type of Insurance</option>
+<option value="Vehicle Insurance">Vehicle Insurance</option>
+<option value="Medical Insurance">Medical Insurance</option>
+<option value="Pet Insurance">Pet Insurance</option></select></span>
 			</p>
 </p></div>
 </p></div>
@@ -1129,7 +1132,12 @@ to get started!</h2>
 			</p>
 </p></div>
 <div class="get-insurance__input-box">
-<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961"><option value="Select type of insurance">Select type of insurance</option><option value="Life insurance">Life insurance</option><option value="Life insurance">Life insurance</option><option value="Home insurance">Home insurance</option></select></span>
+<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961">
+	<option value="Select type of insurance">Select Type of Insurance</option>
+	<option value="Vehicle Insurance">Vehicle Insurance</option>
+	<option value="Medical Insurance">Medical Insurance</option>
+	<option value="Pet Insurance">Pet Insurance</option></select></span>
+</select></span>
 			</p>
 </p></div>
 </p></div>
@@ -1188,7 +1196,12 @@ to get started!</h2>
 			</p>
 </p></div>
 <div class="get-insurance__input-box">
-<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961"><option value="Select type of insurance">Select type of insurance</option><option value="Life insurance">Life insurance</option><option value="Life insurance">Life insurance</option><option value="Home insurance">Home insurance</option></select></span>
+<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961">
+<option value="Select type of insurance">Select Type of Insurance</option>
+	<option value="Vehicle Insurance">Vehicle Insurance</option>
+	<option value="Medical Insurance">Medical Insurance</option>
+	<option value="Pet Insurance">Pet Insurance</option>
+</select></span>
 			</p>
 </p></div>
 </p></div>
@@ -1574,41 +1587,103 @@ latest update &amp; news.</p>
             
         
 </div><!-- #page -->
-
 <!-- The Modal -->
 <div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="getQuoteModalLabel">Get a Quote</h5>
+                <h5 class="modal-title text-light" id="getQuoteModalLabel">Get a Quote</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <!-- Content for your modal -->
-                <form>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <form id="get-quote" name="get-quote">
+                    @csrf
+                    <div class="get-insurance__form">
+                        <!-- Form fields here -->
+                        <div class="get-insurance__input-box">
+                            <input size="40" class="form-control" placeholder="Full name" type="text" name="full_name" required />
+                        </div>
+                        <div class="get-insurance__input-box">
+                            <input size="40" class="form-control" placeholder="Email" type="email" name="email" required />
+                        </div>
+                        <div class="get-insurance__input-box">
+                            <select class="form-control" name="selectedInsurance" required>
+                                <option value="Select type of insurance">Select Type of Insurance</option>
+                                <option value="Vehicle Insurance">Vehicle Insurance</option>
+                                <option value="Medical Insurance">Medical Insurance</option>
+                                <option value="Pet Insurance">Pet Insurance</option>
+                            </select>
+                        </div>
+                        <div class="get-insurance__progress">
+                          
+                                <h4 class="get-insurance__progress-title">Limits of Balance:</h4>
+                                <div class="get-insurance__progress-range">
+                                    <p>
+                                        <input type="text" class="balance-range-slider" data-hide-min-max="true" data-step="100" data-from="70000" data-min="0" data-max="90000" value="" />
+                                    </p>
+                                    <div class="get-insurance__balance-box">
+                                        <p class="get-insurance__balance">$<span></span></p>
+                                    </div>
+                                    <input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" type="hidden" name="limitbal" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
-                    </div>
+                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                    <button type="submit" class="btn btn-primary">Get a Quote Now</button>
                 </form>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Submit</button>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+document.getElementById('get-quote').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    
+    // Perform basic validation
+    let fullName = document.querySelector('input[name="full_name"]').value;
+    let email = document.querySelector('input[name="email"]').value;
+    let selectedInsurance = document.querySelector('select[name="selectedInsurance"]').value;
+    let limitbal = document.querySelector('input[name="limitbal"]').value;
+
+    if (!fullName || !email || selectedInsurance === 'Select type of insurance' || !limitbal) {
+        alert('Please fill in all required fields.');
+        return;
+    }
+
+    // Prepare form data
+    let formData = new FormData(this);
+
+    // Send the form data using AJAX
+    fetch('{{ route('get-quote.store') }}', {
+        method: 'POST',
+        headers: {
+            'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+        },
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Form submitted successfully!');
+            // Optionally, you can close the modal and reset the form
+            $('#getQuoteModal').modal('hide');
+            document.getElementById('get-quote').reset();
+        } else {
+            alert('There was an error submitting the form. Please try again.');
+        }
+    })
+    .catch(error => console.error('Error:', error));
+});
+</script>
+
 
 	<script>
 		(function () {
@@ -1693,6 +1768,62 @@ var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"
  	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script language="javascript">
+
+// Prevent the default form submission
+event.preventDefault();
+function MM_validateForm() { //v4.0
+if (document.getElementById){
+var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+if (val) { nm=val.name; if ((val=val.value)!="") {
+if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+  if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+} else if (test!='R') { num = parseFloat(val);
+  if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+  if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+	min=test.substring(8,p); max=test.substring(p+1);
+	if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+} } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+} if (errors) alert('The following error(s) occurred:\n'+errors);
+document.MM_returnValue = (errors == '');
+} }
+
+// function capturePersonalInsurance() {
+//     // Get the selected value
+//     var selectedInsurance = document.getElementById("personalInsurance").value;
+
+//     // Set the value of the hidden input field
+//     document.getElementById("selectedInsurance").value = selectedInsurance;
+
+//     // Debugging: Log the selected insurance type
+//     console.log("Selected Personal Insurance: " + selectedInsurance);
+// }
+
+//-->
+</script> 
+
+	<style>
+        .modal-content {
+            background: transparent; /* Semi-transparent white */
+            border: solid 1px #ffed4a;
+			padding: 1rem; /* Increase padding inside the modal */
+        }
+        .modal-header, .modal-footer {
+            border: none;
+        }
+        .close {
+            background: transparent;
+			color: #ffed4a;
+            border: none;
+            font-size: 2.5rem;
+            opacity: 0.7;
+        }
+        .close:hover {
+            opacity: 1;
+        }
+    </style>
 
 </body>
 
