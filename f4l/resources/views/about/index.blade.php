@@ -35,6 +35,7 @@
 			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/denzel.blec.co.za\/about\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/#listItem","position":1,"name":"Home","item":"https:\/\/denzel.blec.co.za\/","nextItem":"https:\/\/denzel.blec.co.za\/about\/#listItem"},{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/about\/#listItem","position":2,"name":"About","previousItem":"https:\/\/denzel.blec.co.za\/#listItem"}]},{"@type":"Organization","@id":"https:\/\/denzel.blec.co.za\/#organization","name":"Denzel","url":"https:\/\/denzel.blec.co.za\/","logo":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/main-logo-footer-logo-friends4life-01.png","@id":"https:\/\/denzel.blec.co.za\/about\/#organizationLogo","width":1571,"height":300},"image":{"@id":"https:\/\/denzel.blec.co.za\/about\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/denzel.blec.co.za\/about\/#webpage","url":"https:\/\/denzel.blec.co.za\/about\/","name":"About - Friends For Life","description":"ABOUT COMPANY Creating a better future for your loved once Your Trusted Insurance Broker At Friends4life, we understand the importance of securing your future and protecting what matters most to you. As an experienced insurance broker, we are committed to providing personalized insurance solutions tailored to meet your unique needs. 00 k Gave insurances 00","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/denzel.blec.co.za\/#website"},"breadcrumb":{"@id":"https:\/\/denzel.blec.co.za\/about\/#breadcrumblist"},"image":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/33.jpg","@id":"https:\/\/denzel.blec.co.za\/about\/#mainImage","width":1290,"height":680},"primaryImageOfPage":{"@id":"https:\/\/denzel.blec.co.za\/about\/#mainImage"},"datePublished":"2022-07-02T01:42:02+00:00","dateModified":"2024-04-12T09:34:45+00:00"},{"@type":"WebSite","@id":"https:\/\/denzel.blec.co.za\/#website","url":"https:\/\/denzel.blec.co.za\/","name":"Denzel","description":"Protecting What Matters Most, Together","inLanguage":"en-US","publisher":{"@id":"https:\/\/denzel.blec.co.za\/#organization"}}]}
 		</script>
 		<!-- All in One SEO -->
+		<script src="{{ asset('js/loader.js') }}"></script>
 
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Feed" href="../feed/index.html" />
@@ -250,7 +251,7 @@ Ferndale, Randburg</p>
 								<ul class="list-unstyled main-header__top-menu">
 																			<li><a href="#">Make a Claim</a></li>
 																			<li><a href="#">FAQs</a></li>
-																			<li><a href="{{ route('contact.index') }}">About</a></li>
+																			<li><a href="{{ route('about.index') }}">About</a></li>
 																	</ul>
 							</div>
 																			<div class="main-header__top-social-box">
@@ -283,7 +284,7 @@ Ferndale, Randburg</p>
 								<div class="main-menu__main-menu-box-inner">
 									<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
 									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu-hide menu-item-2131"><a href="{{ route('home') }}">Home Dark</a></li>
-<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-41 current_page_item megamenu-hide menu-item-2132"><a href="index.html" aria-current="page">About</a></li>
+<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-41 current_page_item megamenu-hide menu-item-2132"><a href="about.index" aria-current="page">About</a></li>
 <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
 <ul class="sub-menu">
 	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="{{ route('car-insurance.index') }}">Vehicle Insurance</a></li>
@@ -413,7 +414,7 @@ Ferndale, Randburg</p>
 										<ul class="thm-breadcrumb list-unstyled ml-0" typeof="BreadcrumbList" vocab="https://schema.org/">
 					<!-- Breadcrumb NavXT 7.3.0 -->
 <li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Friends For Life." href="{{ route('home') }}" class="home" ><span property="name">Friends For Life</span></a><meta property="position" content="1"></span></li>
-<li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">About</span><meta property="url" content="https://denzel.blec.co.za/about/"><meta property="position" content="2"></span></li>
+<li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item" href="{{ route('about.index') }}">About</span><meta property="position"><meta property="position" content="2"></span></li>
 				</ul>
 									<h2>
 									About us							</h2>
@@ -763,6 +764,113 @@ latest update &amp; news.</p>
         
 </div><!-- #page -->
 
+<!-- The Modal -->
+<div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-light" id="getQuoteModalLabel">Get a Quote</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+			<div id="loading-overlay">
+    <div class="loader"></div>
+</div>
+
+<form action="{{ route('get-quote.store') }}" method="post" name="get-quote" id="get-quote" onsubmit="submitForm(event);"> 
+      
+					@if (session('success'))
+            <div class="alert alert-success"  style="color: yellow;">{{ session('success') }}</div>
+        @endif
+      
+ @csrf
+                    <div class="get-insurance__form">
+                        <!-- Form fields here -->
+                        <div class="get-insurance__input-box">
+                            <input size="40" class="form-control" placeholder="Full name" type="text" name="full_name" required />
+                        </div>
+                        <div class="get-insurance__input-box">
+                            <input size="40" class="form-control" placeholder="Email" type="email" name="email" required />
+                        </div>
+                        <div class="get-insurance__input-box">
+                            <select class="form-control" name="selectedInsurance" required>
+                                <option value="Select type of insurance">Select Type of Insurance</option>
+                                <option value="Vehicle Insurance">Vehicle Insurance</option>
+                                <option value="Medical Insurance">Medical Insurance</option>
+                                <option value="Pet Insurance">Pet Insurance</option>
+                            </select>
+                        </div>
+                        <div class="get-insurance__progress">
+                          
+                                <h4 class="get-insurance__progress-title">Limits of Balance:</h4>
+                                <div class="get-insurance__progress-range">
+                                    <p>
+                                        <input type="text" class="balance-range-slider" data-hide-min-max="true" data-step="100" data-from="70000" data-min="0" data-max="90000" value="" />
+                                    </p>
+                                    <div class="get-insurance__balance-box">
+                                        <p class="get-insurance__balance">$<span></span></p>
+                                    </div>
+                                    <input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" type="hidden" name="limitbal" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                    <button type="submit" class="btn btn-primary">Get a Quote Now</button>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('get-quote').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    
+    // Perform basic validation
+    let fullName = document.querySelector('input[name="full_name"]').value;
+    let email = document.querySelector('input[name="email"]').value;
+    let selectedInsurance = document.querySelector('select[name="selectedInsurance"]').value;
+    let limitbal = document.querySelector('input[name="limitbal"]').value;
+
+    if (!fullName || !email || selectedInsurance === 'Select type of insurance' || !limitbal) {
+        alert('Please fill in all required fields.');
+        return;
+    }
+
+    // Prepare form data
+    let formData = new FormData(this);
+
+    // Send the form data using AJAX
+    fetch('{{ route('get-quote.store') }}', {
+        method: 'POST',
+        headers: {
+            'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+        },
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Form submitted successfully!');
+            // Optionally, you can close the modal and reset the form
+            $('#getQuoteModal').modal('hide');
+            document.getElementById('get-quote').reset();
+        } else {
+            alert('There was an error submitting the form. Please try again.');
+        }
+    })
+    .catch(error => console.error('Error:', error));
+});
+</script>
+
+
 	<script>
 		(function () {
 			var c = document.body.className;
@@ -844,6 +952,28 @@ var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
 </script>
 <script src="../wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min5068.js?ver=1.8.7.2" id="wpforms-elementor-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+        .modal-content {
+            background: transparent; /* Semi-transparent white */
+            border: solid 1px #ffed4a;
+			padding: 1rem; /* Increase padding inside the modal */
+        }
+        .modal-header, .modal-footer {
+            border: none;
+        }
+        .close {
+            background: transparent;
+			color: #ffed4a;
+            border: none;
+            font-size: 2.5rem;
+            opacity: 0.7;
+        }
+        .close:hover {
+            opacity: 1;
+        }
+    </style>
 
 </body>
 

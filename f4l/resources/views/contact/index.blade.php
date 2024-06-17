@@ -249,9 +249,9 @@ Ferndale, Randburg</p>
 					<div class="main-header__top-right">
 													<div class="main-header__top-menu-box">
 								<ul class="list-unstyled main-header__top-menu">
-																			<li><a href="http://layerdrops.com/insurwp/about/">Make a Claim</a></li>
-																			<li><a href="http://layerdrops.com/insurwp/faqs/">FAQs</a></li>
-																			<li><a href="http://layerdrops.com/insurwp/about/">About</a></li>
+																			<li><a href="#">Make a Claim</a></li>
+																			<li><a href="#">FAQs</a></li>
+																			<li><a href="{{ route('about.index') }}">About</a></li>
 																	</ul>
 							</div>
 																			<div class="main-header__top-social-box">
@@ -283,16 +283,16 @@ Ferndale, Randburg</p>
 							<div class="main-menu__main-menu-box">
 								<div class="main-menu__main-menu-box-inner">
 									<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu-hide menu-item-2131"><a href="../index.html">Home Dark</a></li>
-<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2132"><a href="../about/index.html">About</a></li>
+									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu-hide menu-item-2131"><a href="{{ route('home') }}">Home Dark</a></li>
+<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2132"><a href="{{ route('about.index') }}">About</a></li>
 <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
 <ul class="sub-menu">
-	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="../car-insurance/index.html">Car Insurance</a></li>
-	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368"><a href="../medical-insurance/index.html">Medical Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="../product-pet-insurance/index.html">Pet Insurance</a></li>
+	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="{{ route('car-insurance.index') }}">Car Insurance</a></li>
+	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368"><a href="{{ route('medical-insurance.index') }}">Medical Insurance</a></li>
+	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Pet Insurance</a></li>
 </ul>
 </li>
-<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-47 current_page_item megamenu-hide menu-item-2134"><a href="index.html" aria-current="page">Contact</a></li>
+<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-47 current_page_item megamenu-hide menu-item-2134"><a href="{{ route('contact.index') }}" aria-current="page">Contact</a></li>
 </ul></div>								</div>
 								<div class="main-menu__main-menu-box-search-get-quote-btn">
 
@@ -413,8 +413,8 @@ Ferndale, Randburg</p>
 		<div class="page-header__inner">
 										<ul class="thm-breadcrumb list-unstyled ml-0" typeof="BreadcrumbList" vocab="https://schema.org/">
 					<!-- Breadcrumb NavXT 7.3.0 -->
-<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Friends For Life." href="../index.html" class="home" ><span property="name">Friends For Life</span></a><meta property="position" content="1"></span></li>
-<li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">Contact</span><meta property="url" content="https://denzel.blec.co.za/contact/"><meta property="position" content="2"></span></li>
+<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Friends For Life." href="{{ route('home') }}" class="home" ><span property="name">Friends For Life</span></a><meta property="position" content="1"></span></li>
+<li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item" href="{{ route('contact.index') }}">Contact</span><meta property="url"><meta property="position" content="2"></span></li>
 				</ul>
 									<h2>
 									Contact							</h2>
