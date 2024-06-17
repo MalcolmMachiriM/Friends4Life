@@ -250,9 +250,9 @@ Ferndale, Randburg</p>
 					<div class="main-header__top-right">
 													<div class="main-header__top-menu-box">
 								<ul class="list-unstyled main-header__top-menu">
-																			<li><a href="http://layerdrops.com/insurwp/about/">Make a Claim</a></li>
-																			<li><a href="http://layerdrops.com/insurwp/faqs/">FAQs</a></li>
-																			<li><a href="http://layerdrops.com/insurwp/about/">About</a></li>
+																			<li><a href="#">Make a Claim</a></li>
+																			<li><a href="#">FAQs</a></li>
+																			<li><a href="{{ route('about.index') }}">About</a></li>
 																	</ul>
 							</div>
 																			<div class="main-header__top-social-box">
@@ -277,23 +277,23 @@ Ferndale, Randburg</p>
 					<div class="main-menu__wrapper-inner clearfix">
 						<div class="main-menu__left">
 							<div class="main-menu__logo">
-								<a href="../index.html">
+								<a href="{{ route('home') }}">
 									<img decoding="async" width="140" height="27" src="../wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" alt="Friends For Life">
 								</a>
 							</div>
 							<div class="main-menu__main-menu-box">
 								<div class="main-menu__main-menu-box-inner">
 									<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu-hide menu-item-2131"><a href="../index.html">Home Dark</a></li>
-<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2132"><a href="../about/index.html">About</a></li>
+									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu-hide menu-item-2131"><a href="{{ route('home') }}">Home Dark</a></li>
+<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2132"><a href="{{ route('about.index') }}">About</a></li>
 <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
 <ul class="sub-menu">
-	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="../car-insurance/index.html">Car Insurance</a></li>
-	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368"><a href="../medical-insurance/index.html">Medical Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2351 current_page_item megamenu-hide menu-item-2367"><a href="index.html" aria-current="page">Pet Insurance</a></li>
+	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="{{ route('car-insurance.index') }}">Car Insurance</a></li>
+	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368"><a href="{{ route('medical-insurance.index') }}">Medical Insurance</a></li>
+	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2351 current_page_item megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}" aria-current="page">Pet Insurance</a></li>
 </ul>
 </li>
-<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2134"><a href="../contact/index.html">Contact</a></li>
+<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2134"><a href="{{ route('contact.index') }}">Contact</a></li>
 </ul></div>								</div>
 								<div class="main-menu__main-menu-box-search-get-quote-btn">
 
@@ -341,7 +341,7 @@ Ferndale, Randburg</p>
 		<span class="mobile-nav__close mobile-nav__toggler"></span>
 
 		<div class="logo-box">
-			<a href="../index.html">
+			<a href="{{ route('home') }}">
 				<img decoding="async" width="140" height="27" src="../../layerdrops.com/insurwp/wp-content/uploads/2022/07/logo-light.png" id="mobile-thm-logo" alt="Friends For Life">
 			</a>
 		</div>
@@ -414,8 +414,8 @@ Ferndale, Randburg</p>
 		<div class="page-header__inner">
 										<ul class="thm-breadcrumb list-unstyled ml-0" typeof="BreadcrumbList" vocab="https://schema.org/">
 					<!-- Breadcrumb NavXT 7.3.0 -->
-<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Friends For Life." href="../index.html" class="home" ><span property="name">Friends For Life</span></a><meta property="position" content="1"></span></li>
-<li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">Pet Insurance</span><meta property="url" content="https://denzel.blec.co.za/product-pet-insurance/"><meta property="position" content="2"></span></li>
+<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Friends For Life." href="{{ route('home') }}" class="home" ><span property="name">Friends For Life</span></a><meta property="position" content="1"></span></li>
+<li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item" href="{{ route('product-pet-insurance.index') }}">Pet Insurance</span><meta property="url" content="https://denzel.blec.co.za/product-pet-insurance/"><meta property="position" content="2"></span></li>
 				</ul>
 									<h2>
 									Pet Insurance							</h2>
@@ -430,9 +430,9 @@ Ferndale, Randburg</p>
 						<div class="elementor-element elementor-element-698c6356 elementor-widget elementor-widget-insur-sidebar" data-id="698c6356" data-element_type="widget" data-widget_type="insur-sidebar.default">
 				<div class="elementor-widget-container">
 			    <div class="make-a-claim__claim-box">
-        <div class="menu-insur-details-sidebar-container"><ul id="menu-insur-details-sidebar" class="make-a-claim__claim-list list-unstyled ml-0"><li id="menu-item-1755" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1755"><a href="../car-insurance/index.html">Car Insurance<span class="icon-right-arrow1"></span></a></li>
-<li id="menu-item-2365" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2351 current_page_item menu-item-2365"><a href="index.html" aria-current="page">Pet Insurance<span class="icon-right-arrow1"></span></a></li>
-<li id="menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2366"><a href="../medical-insurance/index.html">Medical Insurance<span class="icon-right-arrow1"></span></a></li>
+        <div class="menu-insur-details-sidebar-container"><ul id="menu-insur-details-sidebar" class="make-a-claim__claim-list list-unstyled ml-0"><li id="menu-item-1755" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1755"><a href="{{ route('car-insurance.index') }}">Car Insurance<span class="icon-right-arrow1"></span></a></li>
+<li id="menu-item-2365" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2351 current_page_item menu-item-2365"><a href="{{ route('product-pet-insurance.index') }}" aria-current="page">Pet Insurance<span class="icon-right-arrow1"></span></a></li>
+<li id="menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2366"><a href="{{ route('medical-insurance.index') }}">Medical Insurance<span class="icon-right-arrow1"></span></a></li>
 </ul></div>    </div>
 		</div>
 				</div>

@@ -316,7 +316,7 @@ Ferndale, Randburg</p>
 																													</div>
 
 																			<div class="main-menu__main-menu-box-get-quote-btn-box">
-																			div	<!-- Button to Open the Modal -->
+																		<!-- Button to Open the Modal -->
 <a href="#" class="thm-btn main-menu__main-menu-box-get-quote-btn" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a>
 
 
