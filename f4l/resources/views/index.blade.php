@@ -35,7 +35,7 @@
 			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/denzel.blec.co.za\/#organization","name":"Denzel","url":"https:\/\/denzel.blec.co.za\/","logo":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/main-logo-footer-logo-friends4life-01.png","@id":"https:\/\/denzel.blec.co.za\/#organizationLogo","width":1571,"height":300},"image":{"@id":"https:\/\/denzel.blec.co.za\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/denzel.blec.co.za\/#webpage","url":"https:\/\/denzel.blec.co.za\/","name":"Home Dark - Friends For Life","description":"Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/denzel.blec.co.za\/#website"},"breadcrumb":{"@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist"},"datePublished":"2022-07-04T08:18:41+00:00","dateModified":"2024-04-15T08:47:20+00:00"},{"@type":"WebSite","@id":"https:\/\/denzel.blec.co.za\/#website","url":"https:\/\/denzel.blec.co.za\/","name":"Denzel","description":"Protecting What Matters Most, Together","inLanguage":"en-US","publisher":{"@id":"https:\/\/denzel.blec.co.za\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/denzel.blec.co.za\/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}
 		</script>
 		<!-- All in One SEO -->
-
+		<script src="{{ asset('js/loader.js') }}"></script>
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Feed" href="feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Comments Feed" href="comments/feed/index.html" />
@@ -214,6 +214,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 			<div class="preloader__image"></div>
 		</div>
 		<!-- /.preloader -->
+		
 
 	<div id="page" class="site page-wrapper">
 		<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
@@ -358,7 +359,7 @@ Ferndale, Randburg</p>
 		<span class="mobile-nav__close mobile-nav__toggler"></span>
 
 		<div class="logo-box">
-			<a href="index.html">
+			<a href="{{ route('home') }}">
 				<img decoding="async" width="140" height="27" src="../layerdrops.com/insurwp/wp-content/uploads/2022/07/logo-light.png" id="mobile-thm-logo" alt="Friends For Life">
 			</a>
 		</div>
@@ -1598,8 +1599,17 @@ latest update &amp; news.</p>
                 </button>
             </div>
             <div class="modal-body">
-                <form id="get-quote" name="get-quote">
-                    @csrf
+			<div id="loading-overlay">
+    <div class="loader"></div>
+</div>
+
+<form action="{{ route('get-quote.store') }}" method="post" name="get-quote" id="get-quote" onsubmit="submitForm(event);"> 
+      
+					@if (session('success'))
+            <div class="alert alert-success"  style="color: yellow;">{{ session('success') }}</div>
+        @endif
+      
+ @csrf
                     <div class="get-insurance__form">
                         <!-- Form fields here -->
                         <div class="get-insurance__input-box">
