@@ -37,7 +37,12 @@
 			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/denzel.blec.co.za\/#organization","name":"Denzel","url":"https:\/\/denzel.blec.co.za\/","logo":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/main-logo-footer-logo-friends4life-01.png","@id":"https:\/\/denzel.blec.co.za\/#organizationLogo","width":1571,"height":300},"image":{"@id":"https:\/\/denzel.blec.co.za\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/denzel.blec.co.za\/#webpage","url":"https:\/\/denzel.blec.co.za\/","name":"Home Dark - Friends For Life","description":"Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/denzel.blec.co.za\/#website"},"breadcrumb":{"@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist"},"datePublished":"2022-07-04T08:18:41+00:00","dateModified":"2024-04-15T08:47:20+00:00"},{"@type":"WebSite","@id":"https:\/\/denzel.blec.co.za\/#website","url":"https:\/\/denzel.blec.co.za\/","name":"Denzel","description":"Protecting What Matters Most, Together","inLanguage":"en-US","publisher":{"@id":"https:\/\/denzel.blec.co.za\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/denzel.blec.co.za\/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}
 		</script>
 		<!-- All in One SEO -->
-		<!-- <script src="{{ asset('js/loader.js') }}"></script> -->
+		<script src="{{ asset('js/loader.js') }}"></script>
+		    <!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    	<!-- Bootstrap JS -->
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Feed" href="feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Comments Feed" href="comments/feed/index.html" />
@@ -1591,116 +1596,150 @@ latest update &amp; news.</p>
         
 </div><!-- #page -->
 
-
-<!-- The Modal -->
-<div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-light" id="getQuoteModalLabel">Get a Quote</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div id="loading-overlay">
-                    <div class="loader"></div>
+     <!-- Modal HTML -->
+	 <div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-light" id="getQuoteModalLabel">Get a Quote</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+                <div class="modal-body">
+                    <div id="loading-overlay" style="display:none;">
+                        <div class="loader"></div>
+                    </div>
+                    <div id="form-message" style="display:none;"></div> <!-- Place for success message -->
 
-                <form action="{{ route('get-quote.store') }}" method="post" name="get-quote" id="get-quote">
-                    @csrf
-                    <div class="get-insurance__form">
-                        <!-- Form fields here -->
-                        <div class="get-insurance__input-box">
-                            <input size="40" class="form-control" placeholder="Full name" type="text" name="full_name" required />
-                        </div>
-                        <div class="get-insurance__input-box">
-                            <input size="40" class="form-control" placeholder="Email" type="email" name="email" required />
-                        </div>
-                        <div class="get-insurance__input-box">
-                            <select class="form-control" name="selectedInsurance" required>
-                                <option value="Select type of insurance">Select Type of Insurance</option>
-                                <option value="Vehicle Insurance">Vehicle Insurance</option>
-                                <option value="Medical Insurance">Medical Insurance</option>
-                                <option value="Pet Insurance">Pet Insurance</option>
-                            </select>
-                        </div>
-                        <div class="get-insurance__progress">
-                            <h4 class="get-insurance__progress-title">Limits of Balance:</h4>
-                            <div class="get-insurance__progress-range">
-                                <p>
-                                    <input type="text" class="balance-range-slider" data-hide-min-max="true" data-step="100" data-from="70000" data-min="0" data-max="90000" value="" />
-                                </p>
-                                <div class="get-insurance__balance-box">
-                                    <p class="get-insurance__balance">$<span></span></p>
+                    <form action="{{ route('get-quote.store') }}" method="post" name="get-quote" id="get-quote">
+                        @csrf
+                        <div class="get-insurance__form">
+                            <div class="get-insurance__input-box">
+                                <input size="40" class="form-control" placeholder="Full name" type="text" name="full_name" required />
+                            </div>
+                            <div class="get-insurance__input-box">
+                                <input size="40" class="form-control" placeholder="Email" type="email" name="email" required />
+                            </div>
+                            <div class="get-insurance__input-box">
+                                <select class="form-control" name="selectedInsurance" required>
+                                    <option value="Select type of insurance">Select Type of Insurance</option>
+                                    <option value="Vehicle Insurance">Vehicle Insurance</option>
+                                    <option value="Medical Insurance">Medical Insurance</option>
+                                    <option value="Pet Insurance">Pet Insurance</option>
+                                </select>
+                            </div>
+                            <div class="get-insurance__progress">
+                                <h4 class="get-insurance__progress-title">Limits of Balance:</h4>
+                                <div class="get-insurance__progress-range">
+                                    <p>
+                                        <input type="text" class="balance-range-slider" data-hide-min-max="true" data-step="100" data-from="70000" data-min="0" data-max="90000" value="" />
+                                    </p>
+                                    <div class="get-insurance__balance-box">
+                                        <p class="get-insurance__balance">$<span></span></p>
+                                    </div>
+                                    <input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" type="hidden" name="limitbal" />
                                 </div>
-                                <input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" type="hidden" name="limitbal" />
                             </div>
                         </div>
-                    </div>
-                    <div class="wpcf7-response-output" aria-hidden="true"></div>
-                    <button type="submit" class="btn btn-primary">Get a Quote Now</button>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                        <button type="submit" class="btn btn-primary">Get a Quote Now</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<script>
-document.getElementById('get-quote').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('get-quote');
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
 
-    // Show the loading overlay
-    document.getElementById('loading-overlay').style.display = 'block';
+            // Show the loading overlay
+            var overlay = document.getElementById('loading-overlay');
+            overlay.style.display = 'block';
+            console.log('Loading overlay displayed.');
 
-    // Perform basic validation
-    let fullName = document.querySelector('input[name="full_name"]').value;
-    let email = document.querySelector('input[name="email"]').value;
-    let selectedInsurance = document.querySelector('select[name="selectedInsurance"]').value;
-    let limitbal = document.querySelector('input[name="limitbal"]').value;
+            // Perform basic validation
+            let fullName = document.querySelector('input[name="full_name"]').value;
+            let email = document.querySelector('input[name="email"]').value;
+            let selectedInsurance = document.querySelector('select[name="selectedInsurance"]').value;
+            let limitbal = document.querySelector('input[name="limitbal"]').value;
 
-    if (!fullName || !email || selectedInsurance === 'Select type of insurance' || !limitbal) {
-        alert('Please fill in all required fields.');
-        document.getElementById('loading-overlay').style.display = 'none';
-        return;
+            if (!fullName || !email || selectedInsurance === 'Select type of insurance' || !limitbal) {
+                alert('Please fill in all required fields.');
+                console.log('Validation failed.');
+                overlay.style.display = 'none';
+                return;
+            }
+
+            console.log('Validation passed. Preparing form data.');
+
+            // Prepare form data
+            let formData = new FormData(this);
+
+            // Send the form data using AJAX
+            fetch('{{ route('get-quote.store') }}', {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+                },
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.json().then(data => {
+                        throw new Error(data.message || 'An error occurred');
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    // Display the success message in the modal
+                    let formMessage = document.getElementById('form-message');
+                    formMessage.style.display = 'block';
+                    formMessage.innerHTML = '<div class="alert alert-success">' + data.message + '</div>';
+                    
+                    console.log('Form submitted successfully. Showing success message.');
+
+                    // Clear the form fields
+                    document.getElementById('get-quote').reset();
+                } else {
+                    alert('There was an error submitting the form. Please try again.');
+                    console.log('Server returned an error.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert(error.message || 'An error occurred while submitting the form.');
+            })
+            .finally(() => {
+                // Hide the loading overlay
+                overlay.style.display = 'none';
+                console.log('Loading overlay hidden.');
+
+                // Re-enable form elements if needed
+                document.querySelectorAll('#get-quote input, #get-quote select, #get-quote button').forEach(element => {
+                    element.disabled = false;
+                });
+
+                // Ensure no other overlays or modal-related issues
+                console.log('Form submission process completed.');
+            });
+        });
+    } else {
+        console.error('Form element not found');
     }
-
-    // Prepare form data
-    let formData = new FormData(this);
-
-    // Send the form data using AJAX
-    fetch('{{ route('get-quote.store') }}', {
-        method: 'POST',
-        headers: {
-            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
-        },
-        body: formData
-    })
-    .then(response => response.json())
-    .then(formData => {
-        if (formData.success) {
-            alert('Form submitted successfully!');
-            // Optionally, you can close the modal and reset the form
-            $('#getQuoteModal').modal('hide');
-            document.getElementById('get-quote').reset();
-        } else {
-            alert('There was an error submitting the form. Please try again.');
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        alert('An error occurred while submitting the form.');
-    })
-    .finally(() => {
-        // Hide the loading overlay
-        document.getElementById('loading-overlay').style.display = 'none';
-    });
 });
-</script>
 
+
+    </script>
 
 	<script>
 		(function () {
