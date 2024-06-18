@@ -35,9 +35,7 @@ class GetQuoteFormController extends Controller
         $getQuote->save();
 
         // Send email
-        // Mail::to('admin@f4l.co.za')->send(new GetQuoteFormSubmitted($request->all()));
         Mail::to('eddymnemo45@gmail.com')->send(new GetQuoteFormSubmitted($request->all()));
-
 
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

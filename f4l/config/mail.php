@@ -35,6 +35,18 @@ return [
     |
     */
 
+
+    'markdown' => [
+        'theme' => 'default',
+    
+        'paths' => [
+           
+            resource_path('views/vendor/mail'),
+        ],
+    ],
+    
+
+
     'mailers' => [
 
         'smtp' => [
@@ -109,8 +121,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'client@f4l.co.za'),
+        'name' => env('MAIL_FROM_NAME', 'Friends4Life'),
     ],
 
 ];

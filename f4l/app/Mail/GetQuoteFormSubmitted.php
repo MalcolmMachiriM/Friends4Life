@@ -3,7 +3,6 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
@@ -13,14 +12,24 @@ class GetQuoteFormSubmitted extends Mailable
 
     public $formData;
 
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
     public function __construct($formData)
     {
         $this->formData = $formData;
     }
 
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
     public function build()
     {
-        return $this->markdown('emails.get-quote-form-submitted')
-                    ->subject('Get Quote Form Submitted');
+        return $this->markdown('vendor.mail.html.get-quote-form-submitted')
+                    ->with('data', $this->formData);
     }
 }
