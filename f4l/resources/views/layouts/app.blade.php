@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
 
 
-<!-- Mirrored from denzel.blec.co.za/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Jun 2024 14:51:42 GMT -->
+<!-- Mirrored from denzel.blec.co.za/about/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Jun 2024 14:53:39 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta charset="UTF-8">
@@ -10,42 +10,42 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 					<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
-				<title>Home Dark - Friends For Life @yield('title')</title>
+
+				<title>Friends For Life @yield('title')</title>
 
 		<!-- All in One SEO 4.5.9.2 - aioseo.com -->
-		<meta name="csrf-token" content="{{ csrf_token() }}">
-
-		<meta name="description" content="Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:" />
+		<meta name="description" content="ABOUT COMPANY Creating a better future for your loved once Your Trusted Insurance Broker At Friends4life, we understand the importance of securing your future and protecting what matters most to you. As an experienced insurance broker, we are committed to providing personalized insurance solutions tailored to meet your unique needs. 00 k Gave insurances 00" />
 		<meta name="robots" content="max-image-preview:large" />
 		<link rel="canonical" href="index.html" />
 		<meta name="generator" content="All in One SEO (AIOSEO) 4.5.9.2" />
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:site_name" content="Friends For Life - Protecting What Matters Most, Together" />
 		<meta property="og:type" content="article" />
-		<meta property="og:title" content="Home Dark - Friends For Life" />
-		<meta property="og:description" content="Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:" />
-		<meta property="og:url" content="https://denzel.blec.co.za/" />
+		<meta property="og:title" content="About - Friends For Life" />
+		<meta property="og:description" content="ABOUT COMPANY Creating a better future for your loved once Your Trusted Insurance Broker At Friends4life, we understand the importance of securing your future and protecting what matters most to you. As an experienced insurance broker, we are committed to providing personalized insurance solutions tailored to meet your unique needs. 00 k Gave insurances 00" />
+		<meta property="og:url" content="https://denzel.blec.co.za/about/" />
 		<meta property="og:image" content="https://denzel.blec.co.za/wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" />
 		<meta property="og:image:secure_url" content="https://denzel.blec.co.za/wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" />
-		<meta property="article:published_time" content="2022-07-04T08:18:41+00:00" />
-		<meta property="article:modified_time" content="2024-04-15T08:47:20+00:00" />
+		<meta property="article:published_time" content="2022-07-02T01:42:02+00:00" />
+		<meta property="article:modified_time" content="2024-04-12T09:34:45+00:00" />
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Home Dark - Friends For Life" />
-		<meta name="twitter:description" content="Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:" />
+		<meta name="twitter:title" content="About - Friends For Life" />
+		<meta name="twitter:description" content="ABOUT COMPANY Creating a better future for your loved once Your Trusted Insurance Broker At Friends4life, we understand the importance of securing your future and protecting what matters most to you. As an experienced insurance broker, we are committed to providing personalized insurance solutions tailored to meet your unique needs. 00 k Gave insurances 00" />
 		<meta name="twitter:image" content="https://denzel.blec.co.za/wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" />
 		<script type="application/ld+json" class="aioseo-schema">
-			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/denzel.blec.co.za\/#organization","name":"Denzel","url":"https:\/\/denzel.blec.co.za\/","logo":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/main-logo-footer-logo-friends4life-01.png","@id":"https:\/\/denzel.blec.co.za\/#organizationLogo","width":1571,"height":300},"image":{"@id":"https:\/\/denzel.blec.co.za\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/denzel.blec.co.za\/#webpage","url":"https:\/\/denzel.blec.co.za\/","name":"Home Dark - Friends For Life","description":"Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/denzel.blec.co.za\/#website"},"breadcrumb":{"@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist"},"datePublished":"2022-07-04T08:18:41+00:00","dateModified":"2024-04-15T08:47:20+00:00"},{"@type":"WebSite","@id":"https:\/\/denzel.blec.co.za\/#website","url":"https:\/\/denzel.blec.co.za\/","name":"Denzel","description":"Protecting What Matters Most, Together","inLanguage":"en-US","publisher":{"@id":"https:\/\/denzel.blec.co.za\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/denzel.blec.co.za\/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/denzel.blec.co.za\/about\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/#listItem","position":1,"name":"Home","item":"https:\/\/denzel.blec.co.za\/","nextItem":"https:\/\/denzel.blec.co.za\/about\/#listItem"},{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/about\/#listItem","position":2,"name":"About","previousItem":"https:\/\/denzel.blec.co.za\/#listItem"}]},{"@type":"Organization","@id":"https:\/\/denzel.blec.co.za\/#organization","name":"Denzel","url":"https:\/\/denzel.blec.co.za\/","logo":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/main-logo-footer-logo-friends4life-01.png","@id":"https:\/\/denzel.blec.co.za\/about\/#organizationLogo","width":1571,"height":300},"image":{"@id":"https:\/\/denzel.blec.co.za\/about\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/denzel.blec.co.za\/about\/#webpage","url":"https:\/\/denzel.blec.co.za\/about\/","name":"About - Friends For Life","description":"ABOUT COMPANY Creating a better future for your loved once Your Trusted Insurance Broker At Friends4life, we understand the importance of securing your future and protecting what matters most to you. As an experienced insurance broker, we are committed to providing personalized insurance solutions tailored to meet your unique needs. 00 k Gave insurances 00","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/denzel.blec.co.za\/#website"},"breadcrumb":{"@id":"https:\/\/denzel.blec.co.za\/about\/#breadcrumblist"},"image":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/33.jpg","@id":"https:\/\/denzel.blec.co.za\/about\/#mainImage","width":1290,"height":680},"primaryImageOfPage":{"@id":"https:\/\/denzel.blec.co.za\/about\/#mainImage"},"datePublished":"2022-07-02T01:42:02+00:00","dateModified":"2024-04-12T09:34:45+00:00"},{"@type":"WebSite","@id":"https:\/\/denzel.blec.co.za\/#website","url":"https:\/\/denzel.blec.co.za\/","name":"Denzel","description":"Protecting What Matters Most, Together","inLanguage":"en-US","publisher":{"@id":"https:\/\/denzel.blec.co.za\/#organization"}}]}
 		</script>
 		<!-- All in One SEO -->
 		<script src="{{ asset('js/loader.js') }}"></script>
-		    <!-- jQuery -->
+		   <!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     	<!-- Bootstrap JS -->
     	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		
 
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-<link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Feed" href="feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Comments Feed" href="comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Comments Feed" href="../comments/feed/index.html" />
 		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.27.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
 		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
 					<!-- No tracking code set -->
@@ -69,10 +69,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		padding: 0 !important;
 	}
 </style>
-<link rel='stylesheet' id='jquery-selectBox-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' media='all' />
-<link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' media='all' />
-<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css' href='wp-content/plugins/woocommerce/assets/css/prettyPhoto005e.css?ver=3.1.6' media='all' />
-<link rel='stylesheet' id='yith-wcwl-main-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/style575b.css?ver=3.31.0' media='all' />
+<link rel='stylesheet' id='jquery-selectBox-css' href='../wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' media='all' />
+<link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='../wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css' href='../wp-content/plugins/woocommerce/assets/css/prettyPhoto005e.css?ver=3.1.6' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css' href='../wp-content/plugins/yith-woocommerce-wishlist/assets/css/style575b.css?ver=3.31.0' media='all' />
 <style id='yith-wcwl-main-inline-css'>
 .yith-wcwl-share li a{color: #FFFFFF;}.yith-wcwl-share li a:hover{color: #FFFFFF;}.yith-wcwl-share a.facebook{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.facebook:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.twitter{background: #45AFE2; background-color: #45AFE2;}.yith-wcwl-share a.twitter:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.pinterest{background: #AB2E31; background-color: #AB2E31;}.yith-wcwl-share a.pinterest:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.email{background: #FBB102; background-color: #FBB102;}.yith-wcwl-share a.email:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.whatsapp{background: #00A901; background-color: #00A901;}.yith-wcwl-share a.whatsapp:hover{background: #39599E; background-color: #39599E;}
 </style>
@@ -87,29 +87,29 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles7404.css?ver=5.9.3' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='../wp-content/plugins/contact-form-7/includes/css/styles7404.css?ver=5.9.3' media='all' />
 <style id='woocommerce-inline-inline-css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
-<link rel='stylesheet' id='animate-css' href='wp-content/plugins/insur-addon/assets/vendors/animate/animate.mind4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='bootstrap-select-css' href='wp-content/plugins/insur-addon/assets/vendors/bootstrap-select/css/bootstrap-select.mind4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='bxslider-css' href='wp-content/plugins/insur-addon/assets/vendors/bxslider/jquery.bxsliderd4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='jarallax-css' href='wp-content/plugins/insur-addon/assets/vendors/jarallax/jarallaxd4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='jquery-magnific-popup-css' href='wp-content/plugins/insur-addon/assets/vendors/jquery-magnific-popup/jquery.magnific-popupd4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='odometer-css' href='wp-content/plugins/insur-addon/assets/vendors/odometer/odometer.mind4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='owl-carousel-css' href='wp-content/plugins/insur-addon/assets/vendors/owl-carousel/owl.carousel.mind4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='owl-theme-css' href='wp-content/plugins/insur-addon/assets/vendors/owl-carousel/owl.theme.default.mind4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='reey-font-css' href='wp-content/plugins/insur-addon/assets/vendors/reey-font/stylesheetd4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='swiper-css' href='wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
-<link rel='stylesheet' id='nice-select-css' href='wp-content/plugins/insur-addon/assets/vendors/nice-select/nice-selectd4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='rangeSlider-css' href='wp-content/plugins/insur-addon/assets/vendors/ion.rangeSlider/css/ion.rangeSlider.mind4b5.css?ver=1712137705' media='all' />
-<link rel='stylesheet' id='insur-addon-style-css' href='wp-content/plugins/insur-addon/assets/css/insur-addond4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='animate-css' href='../wp-content/plugins/insur-addon/assets/vendors/animate/animate.mind4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='bootstrap-select-css' href='../wp-content/plugins/insur-addon/assets/vendors/bootstrap-select/css/bootstrap-select.mind4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='bxslider-css' href='../wp-content/plugins/insur-addon/assets/vendors/bxslider/jquery.bxsliderd4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='jarallax-css' href='../wp-content/plugins/insur-addon/assets/vendors/jarallax/jarallaxd4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='jquery-magnific-popup-css' href='../wp-content/plugins/insur-addon/assets/vendors/jquery-magnific-popup/jquery.magnific-popupd4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='odometer-css' href='../wp-content/plugins/insur-addon/assets/vendors/odometer/odometer.mind4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='../wp-content/plugins/insur-addon/assets/vendors/owl-carousel/owl.carousel.mind4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='owl-theme-css' href='../wp-content/plugins/insur-addon/assets/vendors/owl-carousel/owl.theme.default.mind4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='reey-font-css' href='../wp-content/plugins/insur-addon/assets/vendors/reey-font/stylesheetd4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='swiper-css' href='../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='nice-select-css' href='../wp-content/plugins/insur-addon/assets/vendors/nice-select/nice-selectd4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='rangeSlider-css' href='../wp-content/plugins/insur-addon/assets/vendors/ion.rangeSlider/css/ion.rangeSlider.mind4b5.css?ver=1712137705' media='all' />
+<link rel='stylesheet' id='insur-addon-style-css' href='../wp-content/plugins/insur-addon/assets/css/insur-addond4b5.css?ver=1712137705' media='all' />
 <link rel='stylesheet' id='insur-fonts-css' href='http://fonts.googleapis.com/css?family=DM+Sans%3A400%2C400i%2C500%2C500i%2C700%2C700i%26subset%3Dlatin%2Clatin-ext' media='all' />
-<link rel='stylesheet' id='insur-icons-css' href='wp-content/themes/insur/assets/vendors/insur-icons/style5152.css?ver=1.0' media='all' />
-<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/insur/assets/vendors/bootstrap/css/bootstrap.minbb93.css?ver=5.0.0' media='all' />
-<link rel='stylesheet' id='fontawesome-css' href='wp-content/themes/insur/assets/vendors/fontawesome/css/all.min9e0b.css?ver=5.15.1' media='all' />
-<link rel='stylesheet' id='insur-parent-style-css' href='wp-content/themes/insur/styleef10.css?ver=6.5.3' media='all' />
-<link rel='stylesheet' id='insur-style-css' href='wp-content/themes/insur-child/styleef10.css?ver=6.5.3' media='all' />
+<link rel='stylesheet' id='insur-icons-css' href='../wp-content/themes/insur/assets/vendors/insur-icons/style5152.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='../wp-content/themes/insur/assets/vendors/bootstrap/css/bootstrap.minbb93.css?ver=5.0.0' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='../wp-content/themes/insur/assets/vendors/fontawesome/css/all.min9e0b.css?ver=5.15.1' media='all' />
+<link rel='stylesheet' id='insur-parent-style-css' href='../wp-content/themes/insur/styleef10.css?ver=6.5.3' media='all' />
+<link rel='stylesheet' id='insur-style-css' href='../wp-content/themes/insur-child/styleef10.css?ver=6.5.3' media='all' />
 <style id='insur-style-inline-css'>
 :root {
 			  --insur-primary: #0ce0ff;
@@ -118,7 +118,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			  --insur-base-rgb: 1, 95, 201;
 			  --insur-black: #16243d;
 			  --insur-black-rgb: 22, 36, 61;
-			}.page-header-bg { background-image: url(../layerdrops.com/insurwp/wp-content/uploads/2022/07/page-header-bg.jpg); } .preloader .preloader__image { background-image: url(https://layerdrops.com/insurwp/wp-content/uploads/2022/08/loader.png); } :root {
+			}.page-header-bg { background-image: url(../../layerdrops.com/insurwp/wp-content/uploads/2022/07/page-header-bg.jpg); } .preloader .preloader__image { background-image: url(https://layerdrops.com/insurwp/wp-content/uploads/2022/08/loader.png); } :root {
 				--insur-primary: #0ce0ff;
 				--insur-primary-rgb: 12, 224, 255;
 				--insur-base: #015fc9;
@@ -126,57 +126,51 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				--insur-black: #16243d;
 				--insur-black-rgb: 22, 36, 61;
 
-				}.page-header-bg { background-image: url(../layerdrops.com/insurwp/wp-content/uploads/2022/07/page-header-bg.jpg); }
+				}.page-header-bg { background-image: url(../wp-content/uploads/2024/04/Slide-4.jpg); }
 @font-face {
 			font-family: "star";
-			src: url("wp-content/plugins/woocommerce/assets/fonts/star.eot");
-			src: url("wp-content/plugins/woocommerce/assets/fonts/stard41d.eot?#iefix") format("embedded-opentype"),
-				url("wp-content/plugins/woocommerce/assets/fonts/star.woff") format("woff"),
-				url("wp-content/plugins/woocommerce/assets/fonts/star.ttf") format("truetype"),
-				url("wp-content/plugins/woocommerce/assets/fonts/star.svg#star") format("svg");
+			src: url("../wp-content/plugins/woocommerce/assets/fonts/star.eot");
+			src: url("../wp-content/plugins/woocommerce/assets/fonts/stard41d.eot?#iefix") format("embedded-opentype"),
+				url("../wp-content/plugins/woocommerce/assets/fonts/star.woff") format("woff"),
+				url("../wp-content/plugins/woocommerce/assets/fonts/star.ttf") format("truetype"),
+				url("../wp-content/plugins/woocommerce/assets/fonts/star.svg#star") format("svg");
 			font-weight: normal;
 			font-style: normal;
 		}
 </style>
-<link rel='stylesheet' id='flaticons-css' href='wp-content/themes/insur/assets/vendors/flaticons/css/flaticon4963.css?ver=1.1' media='all' />
-<link rel='stylesheet' id='insur-icons-two-css' href='wp-content/themes/insur/assets/vendors/insur-two-icon/style5152.css?ver=1.0' media='all' />
-<link rel='stylesheet' id='insur-three-icon-css' href='wp-content/themes/insur/assets/vendors/insur-three-icon/style5152.css?ver=1.0' media='all' />
-<link rel='stylesheet' id='insur-dark-mode-css' href='wp-content/themes/insur/assets/css/modes/insur-darkefee.css?ver=1717426150' media='all' />
-<link rel='stylesheet' id='recent-posts-widget-with-thumbnails-public-style-css' href='wp-content/plugins/recent-posts-widget-with-thumbnails/public03db.css?ver=7.1.1' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend-lite.mince8e.css?ver=3.20.3' media='all' />
-<link rel='stylesheet' id='elementor-post-13-css' href='wp-content/uploads/elementor/css/post-13d4fc.css?ver=1712578116' media='all' />
-<link rel='stylesheet' id='elementor-pro-css' href='wp-content/plugins/elementor-pro/assets/css/frontend-lite.min7329.css?ver=3.20.2' media='all' />
-<link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/globalccfd.css?ver=1712578247' media='all' />
-<link rel='stylesheet' id='elementor-post-953-css' href='wp-content/uploads/elementor/css/post-95324d8.css?ver=1713170950' media='all' />
+<link rel='stylesheet' id='flaticons-css' href='../wp-content/themes/insur/assets/vendors/flaticons/css/flaticon4963.css?ver=1.1' media='all' />
+<link rel='stylesheet' id='insur-icons-two-css' href='../wp-content/themes/insur/assets/vendors/insur-two-icon/style5152.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='insur-three-icon-css' href='../wp-content/themes/insur/assets/vendors/insur-three-icon/style5152.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='recent-posts-widget-with-thumbnails-public-style-css' href='../wp-content/plugins/recent-posts-widget-with-thumbnails/public03db.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='../wp-content/plugins/elementor/assets/css/frontend-lite.mince8e.css?ver=3.20.3' media='all' />
+<link rel='stylesheet' id='elementor-post-13-css' href='../wp-content/uploads/elementor/css/post-13d4fc.css?ver=1712578116' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='../wp-content/plugins/elementor-pro/assets/css/frontend-lite.min7329.css?ver=3.20.2' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='../wp-content/uploads/elementor/css/globalccfd.css?ver=1712578247' media='all' />
 <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.5.3' media='all' />
-<link rel='stylesheet' id='elementor-icons-shared-0-css' href='wp-content/plugins/insur-addon/assets/vendors/insur-icons/style5152.css?ver=1.0' media='all' />
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-<script src="wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script src="wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min71e5.js?ver=2.7.0-wc.8.7.0" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min71e5.js?ver=2.7.0-wc.8.7.0" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
 <script id="wc-add-to-cart-js-extra">
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/denzel.blec.co.za\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 </script>
-<script src="wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min117a.js?ver=8.7.0" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
-<script src="wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min52f2.js?ver=2.1.4-wc.8.7.0" id="js-cookie-js" defer data-wp-strategy="defer"></script>
+<script src="../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min117a.js?ver=8.7.0" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+<script src="../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min52f2.js?ver=2.1.4-wc.8.7.0" id="js-cookie-js" defer data-wp-strategy="defer"></script>
 <script id="woocommerce-js-extra">
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
 </script>
-<script src="wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min117a.js?ver=8.7.0" id="woocommerce-js" defer data-wp-strategy="defer"></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/953.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<script src="../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min117a.js?ver=8.7.0" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/41.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
 <meta name="generator" content="WordPress 6.5.3" />
 <meta name="generator" content="WooCommerce 8.7.0" />
-<link rel='shortlink' href='index.html' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embeda24e.json?url=https%3A%2F%2Fdenzel.blec.co.za%2F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedca99?url=https%3A%2F%2Fdenzel.blec.co.za%2F&amp;format=xml" />
+<link rel='shortlink' href='../indexcbb6.html?p=41' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed1c1e.json?url=https%3A%2F%2Fdenzel.blec.co.za%2Fabout%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed90c9?url=https%3A%2F%2Fdenzel.blec.co.za%2Fabout%2F&amp;format=xml" />
 	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<meta name="generator" content="Elementor 3.20.3; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<link rel="icon" href="wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" />
+<link rel="icon" href="../wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" />
 <meta name="msapplication-TileImage" content="https://denzel.blec.co.za/wp-content/uploads/2024/04/flavicon-friends4life-16by16px-01.png" />
-<!-- Bootstrap CSS -->
-<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
-
 <style id="wpforms-css-vars-root">
 				:root {
 					--wpforms-field-border-radius: 3px;
@@ -193,7 +187,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 --wpforms-field-size-input-height: 43px;
 --wpforms-field-size-input-spacing: 15px;
 --wpforms-field-size-font-size: 16px;
---wpforms-field-size-line-height: 19divpx;
+--wpforms-field-size-line-height: 19px;
 --wpforms-field-size-padding-h: 14px;
 --wpforms-field-size-checkbox-size: 16px;
 --wpforms-field-size-sublabel-spacing: 5px;
@@ -208,11 +202,9 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 --wpforms-button-size-margin-top: 10px;
 
 				}
-			</style>
-			
-		</head>
+			</style></head>
 
-<body class="home page-template page-template-elementor_header_footer page page-id-953 wp-custom-logo theme-insur woocommerce-no-js custom-cursor woocommerce-active elementor-default elementor-template-full-width elementor-kit-13 elementor-page elementor-page-953">
+<body class="page-template page-template-elementor_header_footer page page-id-41 wp-custom-logo theme-insur woocommerce-no-js custom-cursor woocommerce-active elementor-default elementor-template-full-width elementor-kit-13 elementor-page elementor-page-41">
 	            <div class="custom-cursor__cursor"></div>
             <div class="custom-cursor__cursor-two"></div>
 
@@ -221,22 +213,19 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 			<div class="preloader__image"></div>
 		</div>
 		<!-- /.preloader -->
-		
 
 	<div id="page" class="site page-wrapper">
 		<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
 
 		
 	
-                    <p></p>
-        
-		
-				<div data-elementor-type="wp-page" data-elementor-id="953" class="elementor elementor-953" data-elementor-post-type="page">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-587f4d35 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="587f4d35" data-element_type="section">
+                    <!-- the loop -->
+                            		<div data-elementor-type="wp-post" data-elementor-id="577" class="elementor elementor-577" data-elementor-post-type="header">
+						<header class="elementor-section elementor-top-section elementor-element elementor-element-09cb672 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="09cb672" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3677006d" data-id="3677006d" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22ffa8c" data-id="22ffa8c" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-45f3de6 elementor-widget elementor-widget-global elementor-global-2147 elementor-widget-insur-header" data-id="45f3de6" data-element_type="widget" data-widget_type="insur-header.default">
+						<div class="elementor-element elementor-element-6cb38a1 elementor-widget elementor-widget-global elementor-global-2147 elementor-widget-insur-header" data-id="6cb38a1" data-element_type="widget" data-widget_type="insur-header.default">
 				<div class="elementor-widget-container">
 			
 	<header class="main-header clearfix">
@@ -282,7 +271,7 @@ Ferndale, Randburg</p>
 																			<a class="insur-icon-svg" href="http://pinterest.com/" target=_blank>
 											<svg aria-hidden="true" class="  e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>										</a>
 																	</div>
-							</div>div
+							</div>
 											</div>
 				</div>
 			</div>
@@ -294,24 +283,19 @@ Ferndale, Randburg</p>
 						<div class="main-menu__left">
 							<div class="main-menu__logo">
 								<a href="{{ route('home') }}">
-									<img decoding="async" width="140" height="27" src="wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" alt="Friends For Life">
+									<img decoding="async" width="140" height="27" src="../wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" alt="Friends For Life">
 								</a>
 							</div>
 							<div class="main-menu__main-menu-box">
 								<div class="main-menu__main-menu-box-inner">
 									<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-953 current_page_item megamenu-hide menu-item-2131"><a href="{{ route('home') }}" aria-current="page">Home Dark</a></li>
-<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2132"><a href="{{ route('about.index') }}">About</a></li>
-<li id="menu-item-2310" class="menu-divitem menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
+									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu-hide menu-item-2131"><a href="{{ route('home') }}">Home Dark</a></li>
+<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-41 current_page_item megamenu-hide menu-item-2132"><a href="{{ route('about.index') }}" aria-current="page">About</a></li>
+<li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
 <ul class="sub-menu">
 	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="{{ route('car-insurance.index') }}">Car Insurance</a></li>
 	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368"><a href="{{ route('medical-insurance.index') }}">Medical Insurance</a></li>
 	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Pet Insurance</a></li>
-	<!-- <li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Building Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Camera Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Accident Cover</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Mobile Devices</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Car Warranty</a></li> -->
 </ul>
 </li>
 <li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2134"><a href="{{ route('contact.index') }}">Contact</a></li>
@@ -323,11 +307,7 @@ Ferndale, Randburg</p>
 																													</div>
 
 																			<div class="main-menu__main-menu-box-get-quote-btn-box">
-																		<!-- Button to Open the Modal -->
-<a href="#" class="thm-btn main-menu__main-menu-box-get-quote-btn" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a>
-
-
-
+																			<a href="#" class="thm-btn main-menu__main-menu-box-get-quote-btn" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a>
 										</div>
 																	</div>
 							</div>
@@ -353,11 +333,9 @@ Ferndale, Randburg</p>
 		</div><!-- /.stricky-header -->
 	
 
-    <div class="container">
+	<div class="container">
         @yield('content')
     </div>
-
-
 
 	<div data-elementor-type="wp-post" data-elementor-id="668" class="elementor elementor-668" data-elementor-post-type="footer">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-f2c0c41 elementor-section-full_width site-footer elementor-section-height-default elementor-section-height-default" data-id="f2c0c41" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -368,7 +346,7 @@ Ferndale, Randburg</p>
 					<div class="elementor-background-overlay"></div>
 						<div class="elementor-element elementor-element-f348f42 footer-shape-bg elementor-widget elementor-widget-insur-shape" data-id="f348f42" data-element_type="widget" data-widget_type="insur-shape.default">
 				<div class="elementor-widget-container">
-				<div class="site-footer-bg" style="background-image: url(../layerdrops.com/insurwp/wp-content/uploads/2022/07/site-footer-bg.png);"></div>
+				<div class="site-footer-bg" style="background-image: url(../../layerdrops.com/insurwp/wp-content/uploads/2022/07/site-footer-bg.png);"></div>
 		</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-72e2484 site-footer__top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="72e2484" data-element_type="section">
@@ -379,8 +357,8 @@ Ferndale, Randburg</p>
 				<div class="elementor-widget-container">
 				<div class="footer-widget__column footer-widget__about">
 		<div class="footer-widget__logo">
-			<a href="index.html">
-				<img decoding="async" width="251" height="60" src="wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" alt="Friends For Life">
+			<a href="../index.html">
+				<img decoding="async" width="251" height="60" src="../wp-content/uploads/2024/04/main-logo-footer-logo-friends4life-01.png" alt="Friends For Life">
 			</a>
 		</div>
 					<div class="footer-widget__about-text-box">
@@ -444,37 +422,37 @@ Ferndale, Randburg</p>
                 <ul class="footer-widget__gallery-list list-unstyled clearfix ml-0">
                                                 <li>
                         <div class="footer-widget__gallery-img">
-                            <img decoding="async" src="../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-1.jpg" alt="">
+                            <img decoding="async" src="../../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-1.jpg" alt="">
                             <a target=_blank href="http://layerdrops.com/insurwp/car-insurance/"><span class="fa fa-link"></span></a>
                         </div>
                     </li>
                                     <li>
                         <div class="footer-widget__gallery-img">
-                            <img decoding="async" src="../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-2.jpg" alt="">
+                            <img decoding="async" src="../../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-2.jpg" alt="">
                             <a target=_blank href="http://layerdrops.com/insurwp/car-insurance/"><span class="fa fa-link"></span></a>
                         </div>
                     </li>
                                     <li>
                         <div class="footer-widget__gallery-img">
-                            <img decoding="async" src="../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-3.jpg" alt="">
+                            <img decoding="async" src="../../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-3.jpg" alt="">
                             <a target=_blank href="http://layerdrops.com/insurwp/car-insurance/"><span class="fa fa-link"></span></a>
                         </div>
                     </li>
                                     <li>
                         <div class="footer-widget__gallery-img">
-                            <img decoding="async" src="../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-4.jpg" alt="">
+                            <img decoding="async" src="../../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-4.jpg" alt="">
                             <a target=_blank href="http://layerdrops.com/insurwp/car-insurance/"><span class="fa fa-link"></span></a>
                         </div>
                     </li>
                                     <li>
                         <div class="footer-widget__gallery-img">
-                            <img decoding="async" src="../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-5.jpg" alt="">
+                            <img decoding="async" src="../../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-5.jpg" alt="">
                             <a target=_blank href="http://layerdrops.com/insurwp/car-insurance/"><span class="fa fa-link"></span></a>
                         </div>
                     </li>
                                     <li>
                         <div class="footer-widget__gallery-img">
-                            <img decoding="async" src="../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-6.jpg" alt="">
+                            <img decoding="async" src="../../layerdrops.com/insurwp/wp-content/uploads/2022/07/footer-widget-gallery-img-6.jpg" alt="">
                             <a target=_blank href="http://layerdrops.com/insurwp/car-insurance/"><span class="fa fa-link"></span></a>
                         </div>
                     </li>
@@ -537,9 +515,8 @@ latest update &amp; news.</p>
             
         
 </div><!-- #page -->
-
-     <!-- Modal HTML -->
-	 <div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
+ <!-- Modal HTML -->
+ <div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -690,84 +667,86 @@ latest update &amp; news.</p>
 			document.body.className = c;
 		})();
 	</script>
-	<link rel='stylesheet' id='elementor-post-668-css' href='wp-content/uploads/elementor/css/post-668f83c.css?ver=1713177722' media='all' />
-<script src="wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min7359.js?ver=1.2.0" id="jquery-selectBox-js"></script>
-<script src="wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min005e.js?ver=3.1.6" id="prettyPhoto-js" data-wp-strategy="defer"></script>
+
+	<link rel='stylesheet' id='elementor-post-577-css' href='../wp-content/uploads/elementor/css/post-577896b.css?ver=1713095317' media='all' />
+<link rel='stylesheet' id='elementor-post-668-css' href='../wp-content/uploads/elementor/css/post-668f83c.css?ver=1713177722' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='../wp-content/plugins/insur-addon/assets/vendors/insur-icons/style5152.css?ver=1.0' media='all' />
+<script src="../wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min7359.js?ver=1.2.0" id="jquery-selectBox-js"></script>
+<script src="../wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min005e.js?ver=3.1.6" id="prettyPhoto-js" data-wp-strategy="defer"></script>
 <script id="jquery-yith-wcwl-js-extra">
 var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","yith_wcwl_button_position":"after_add_to_cart","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"https:\/\/denzel.blec.co.za\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"402a45eafb","remove_from_wishlist_nonce":"55855d352a","reload_wishlist_and_adding_elem_nonce":"93b3631e92","load_mobile_nonce":"9640145a98","delete_item_nonce":"65f8dbe93a","save_title_nonce":"2c19b49e18","save_privacy_nonce":"c9ccfeaac5","load_fragments_nonce":"b839537fc0"},"redirect_after_ask_estimate":"","ask_estimate_redirect_url":"https:\/\/denzel.blec.co.za"};
 </script>
-<script src="wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min575b.js?ver=3.31.0" id="jquery-yith-wcwl-js"></script>
-<script src="wp-content/plugins/contact-form-7/includes/swv/js/index7404.js?ver=5.9.3" id="swv-js"></script>
+<script src="../wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min575b.js?ver=3.31.0" id="jquery-yith-wcwl-js"></script>
+<script src="../wp-content/plugins/contact-form-7/includes/swv/js/index7404.js?ver=5.9.3" id="swv-js"></script>
 <script id="contact-form-7-js-extra">
 var wpcf7 = {"api":{"root":"https:\/\/denzel.blec.co.za\/wp-json\/","namespace":"contact-form-7\/v1"}};
 </script>
-<script src="wp-content/plugins/contact-form-7/includes/js/index7404.js?ver=5.9.3" id="contact-form-7-js"></script>
-<script src="wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min117a.js?ver=8.7.0" id="sourcebuster-js-js"></script>
+<script src="../wp-content/plugins/contact-form-7/includes/js/index7404.js?ver=5.9.3" id="contact-form-7-js"></script>
+<script src="../wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min117a.js?ver=8.7.0" id="sourcebuster-js-js"></script>
 <script id="wc-order-attribution-js-extra">
 var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/denzel.blec.co.za\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
 </script>
-<script src="wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min117a.js?ver=8.7.0" id="wc-order-attribution-js"></script>
-<script src="wp-content/themes/insur/assets/vendors/bootstrap/js/bootstrap.minbb93.js?ver=5.0.0" id="bootstrap-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/bootstrap-select/js/bootstrap-select.mind4b5.js?ver=1712137705" id="bootstrap-select-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/bxslider/jquery.bxslider.mind4b5.js?ver=1712137705" id="jquery-bxslider-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/countdown/countdown.mind4b5.js?ver=1712137705" id="countdown-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/isotope/isotoped4b5.js?ver=1712137705" id="isotope-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/jarallax/jarallax.mind4b5.js?ver=1712137705" id="jarallax-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.mind4b5.js?ver=1712137705" id="jquery-ajaxchimp-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/jquery-appear/jquery.appear.mind4b5.js?ver=1712137705" id="jquery-appear-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/jquery-easing/jquery.easing.mind4b5.js?ver=1712137705" id="jquery-easing-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.mind4b5.js?ver=1712137705" id="jquery-magnific-popup-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/jquery-circle-progress/jquery.circle-progress.mind4b5.js?ver=1712137705" id="jquery-circle-progress-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/odometer/odometer.mind4b5.js?ver=1712137705" id="odometer-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/owl-carousel/owl.carousel.mind4b5.js?ver=1712137705" id="owl-carousel-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/swiper/swiper.mind4b5.js?ver=1712137705" id="swiper-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/ion.rangeSlider/js/ion.rangeSlider.mind4b5.js?ver=1712137705" id="rangeSlider-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/wow/wowd4b5.js?ver=1712137705" id="wow-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/sharer/sharer.mind4b5.js?ver=1712137705" id="sharer-js"></script>
-<script src="wp-content/plugins/insur-addon/assets/vendors/nice-select/jquery.nice-select.mind4b5.js?ver=1712137705" id="nice-select-js"></script>
+<script src="../wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min117a.js?ver=8.7.0" id="wc-order-attribution-js"></script>
+<script src="../wp-content/themes/insur/assets/vendors/bootstrap/js/bootstrap.minbb93.js?ver=5.0.0" id="bootstrap-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/bootstrap-select/js/bootstrap-select.mind4b5.js?ver=1712137705" id="bootstrap-select-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/bxslider/jquery.bxslider.mind4b5.js?ver=1712137705" id="jquery-bxslider-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/countdown/countdown.mind4b5.js?ver=1712137705" id="countdown-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/isotope/isotoped4b5.js?ver=1712137705" id="isotope-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/jarallax/jarallax.mind4b5.js?ver=1712137705" id="jarallax-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.mind4b5.js?ver=1712137705" id="jquery-ajaxchimp-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/jquery-appear/jquery.appear.mind4b5.js?ver=1712137705" id="jquery-appear-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/jquery-easing/jquery.easing.mind4b5.js?ver=1712137705" id="jquery-easing-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.mind4b5.js?ver=1712137705" id="jquery-magnific-popup-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/jquery-circle-progress/jquery.circle-progress.mind4b5.js?ver=1712137705" id="jquery-circle-progress-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/odometer/odometer.mind4b5.js?ver=1712137705" id="odometer-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/owl-carousel/owl.carousel.mind4b5.js?ver=1712137705" id="owl-carousel-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/swiper/swiper.mind4b5.js?ver=1712137705" id="swiper-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/ion.rangeSlider/js/ion.rangeSlider.mind4b5.js?ver=1712137705" id="rangeSlider-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/wow/wowd4b5.js?ver=1712137705" id="wow-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/sharer/sharer.mind4b5.js?ver=1712137705" id="sharer-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/vendors/nice-select/jquery.nice-select.mind4b5.js?ver=1712137705" id="nice-select-js"></script>
 <script id="insur-addon-script-js-extra">
 var insur_login_object = {"ajaxurl":"https:\/\/denzel.blec.co.za\/wp-admin\/admin-ajax.php","login_redirect_url":"https:\/\/denzel.blec.co.za\/","registration_redirect_url":"https:\/\/denzel.blec.co.za\/","message":"<strong>Error:<\/strong>Please use valid userName or password","check_login":"no","str_login":"Please login to add favorite!","str_add_wishlist":"Add favorite successfully!","str_remove_wishlist":"Remove favorite successfully!"};
 </script>
-<script src="wp-content/plugins/insur-addon/assets/js/insur-addond4b5.js?ver=1712137705" id="insur-addon-script-js"></script>
-<script src="wp-content/themes/insur/assets/js/insur-themeefee.js?ver=1717426150" id="insur-theme-js"></script>
-<script src="wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min7329.js?ver=3.20.2" id="elementor-pro-webpack-runtime-js"></script>
-<script src="wp-content/plugins/elementor/assets/js/webpack.runtime.mince8e.js?ver=3.20.3" id="elementor-webpack-runtime-js"></script>
-<script src="wp-content/plugins/elementor/assets/js/frontend-modules.mince8e.js?ver=3.20.3" id="elementor-frontend-modules-js"></script>
-<script src="wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
-<script src="wp-includes/js/dist/vendor/regenerator-runtime.min6c85.js?ver=0.14.0" id="regenerator-runtime-js"></script>
-<script src="wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
-<script src="wp-includes/js/dist/hooks.min2757.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
-<script src="wp-includes/js/dist/i18n.minc33c.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script src="../wp-content/plugins/insur-addon/assets/js/insur-addond4b5.js?ver=1712137705" id="insur-addon-script-js"></script>
+<script src="../wp-content/themes/insur/assets/js/insur-theme43af.js?ver=1717426188" id="insur-theme-js"></script>
+<script src="../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min7329.js?ver=3.20.2" id="elementor-pro-webpack-runtime-js"></script>
+<script src="../wp-content/plugins/elementor/assets/js/webpack.runtime.mince8e.js?ver=3.20.3" id="elementor-webpack-runtime-js"></script>
+<script src="../wp-content/plugins/elementor/assets/js/frontend-modules.mince8e.js?ver=3.20.3" id="elementor-frontend-modules-js"></script>
+<script src="../wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script src="../wp-includes/js/dist/vendor/regenerator-runtime.min6c85.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script src="../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="../wp-includes/js/dist/hooks.min2757.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script src="../wp-includes/js/dist/i18n.minc33c.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 </script>
 <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/denzel.blec.co.za\/wp-admin\/admin-ajax.php","nonce":"68396661be","urls":{"assets":"https:\/\/denzel.blec.co.za\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/denzel.blec.co.za\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/denzel.blec.co.za\/cart\/","checkout_page_url":"https:\/\/denzel.blec.co.za\/checkout\/","fragments_nonce":"1a05007c09"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/denzel.blec.co.za\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
-<script src="wp-content/plugins/elementor-pro/assets/js/frontend.min7329.js?ver=3.20.2" id="elementor-pro-frontend-js"></script>
-<script src="wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2" id="elementor-waypoints-js"></script>
-<script src="wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script src="../wp-content/plugins/elementor-pro/assets/js/frontend.min7329.js?ver=3.20.2" id="elementor-pro-frontend-js"></script>
+<script src="../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="../wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.20.3","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"container_grid":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"notes":true,"display-conditions":true,"form-submissions":true,"taxonomy-filter":true},"urls":{"assets":"https:\/\/denzel.blec.co.za\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":953,"title":"Home%20Dark%20-%20Friends%20For%20Life","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.20.3","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"container_grid":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"notes":true,"display-conditions":true,"form-submissions":true,"taxonomy-filter":true},"urls":{"assets":"https:\/\/denzel.blec.co.za\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":41,"title":"About%20-%20Friends%20For%20Life","excerpt":"","featuredImage":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/33-1024x540.jpg"}};
 </script>
-<script src="wp-content/plugins/elementor/assets/js/frontend.mince8e.js?ver=3.20.3" id="elementor-frontend-js"></script>
-<script src="wp-content/plugins/elementor-pro/assets/js/elements-handlers.min7329.js?ver=3.20.2" id="pro-elements-handlers-js"></script>
-<script src="wp-includes/js/underscore.mind584.js?ver=1.13.4" id="underscore-js"></script>
+<script src="../wp-content/plugins/elementor/assets/js/frontend.mince8e.js?ver=3.20.3" id="elementor-frontend-js"></script>
+<script src="../wp-content/plugins/elementor-pro/assets/js/elements-handlers.min7329.js?ver=3.20.2" id="pro-elements-handlers-js"></script>
+<script src="../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min7329.js?ver=3.20.2" id="e-sticky-js"></script>
+<script src="../wp-includes/js/underscore.mind584.js?ver=1.13.4" id="underscore-js"></script>
 <script id="wp-util-js-extra">
 var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 </script>
-<script src="wp-includes/js/wp-util.minef10.js?ver=6.5.3" id="wp-util-js"></script>
+<script src="../wp-includes/js/wp-util.minef10.js?ver=6.5.3" id="wp-util-js"></script>
 <script id="wpforms-elementor-js-extra">
 var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
 </script>
-<script src="wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min5068.js?ver=1.8.7.2" id="wpforms-elementor-js"></script>
+<script src="../wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min5068.js?ver=1.8.7.2" id="wpforms-elementor-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
- <!-- Bootstrap JS, Popper.js, and jQuery -->
- 	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-	<script language="javascript">
+<script language="javascript">
 
 // Prevent the default form submission
 event.preventDefault();
@@ -856,5 +835,5 @@ document.MM_returnValue = (errors == '');
 </body>
 
 
-<!-- Mirrored from denzel.blec.co.za/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Jun 2024 14:53:02 GMT -->
+<!-- Mirrored from denzel.blec.co.za/about/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Jun 2024 14:53:50 GMT -->
 </html>
