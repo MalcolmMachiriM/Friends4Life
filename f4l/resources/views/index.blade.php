@@ -13,6 +13,8 @@
 				<title>Home Dark - Friends For Life</title>
 
 		<!-- All in One SEO 4.5.9.2 - aioseo.com -->
+		<meta name="csrf-token" content="{{ csrf_token() }}">
+
 		<meta name="description" content="Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:" />
 		<meta name="robots" content="max-image-preview:large" />
 		<link rel="canonical" href="index.html" />
@@ -35,7 +37,7 @@
 			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/denzel.blec.co.za\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/denzel.blec.co.za\/#organization","name":"Denzel","url":"https:\/\/denzel.blec.co.za\/","logo":{"@type":"ImageObject","url":"https:\/\/denzel.blec.co.za\/wp-content\/uploads\/2024\/04\/main-logo-footer-logo-friends4life-01.png","@id":"https:\/\/denzel.blec.co.za\/#organizationLogo","width":1571,"height":300},"image":{"@id":"https:\/\/denzel.blec.co.za\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/denzel.blec.co.za\/#webpage","url":"https:\/\/denzel.blec.co.za\/","name":"Home Dark - Friends For Life","description":"Block B, Oak Office Park 372 Oak Avenue Ferndale, Randburg info@friends4life.co.za Make a Claim FAQs About Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance: $ Get a Quote Now Select type of insuranceLife insuranceLife insuranceHome insurance Limits of Balance:","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/denzel.blec.co.za\/#website"},"breadcrumb":{"@id":"https:\/\/denzel.blec.co.za\/#breadcrumblist"},"datePublished":"2022-07-04T08:18:41+00:00","dateModified":"2024-04-15T08:47:20+00:00"},{"@type":"WebSite","@id":"https:\/\/denzel.blec.co.za\/#website","url":"https:\/\/denzel.blec.co.za\/","name":"Denzel","description":"Protecting What Matters Most, Together","inLanguage":"en-US","publisher":{"@id":"https:\/\/denzel.blec.co.za\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/denzel.blec.co.za\/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}
 		</script>
 		<!-- All in One SEO -->
-		<script src="{{ asset('js/loader.js') }}"></script>
+		<!-- <script src="{{ asset('js/loader.js') }}"></script> -->
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Feed" href="feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="Friends For Life &raquo; Comments Feed" href="comments/feed/index.html" />
@@ -1588,6 +1590,8 @@ latest update &amp; news.</p>
             
         
 </div><!-- #page -->
+
+
 <!-- The Modal -->
 <div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -1599,17 +1603,12 @@ latest update &amp; news.</p>
                 </button>
             </div>
             <div class="modal-body">
-			<div id="loading-overlay">
-    <div class="loader"></div>
-</div>
+                <div id="loading-overlay">
+                    <div class="loader"></div>
+                </div>
 
-<form action="{{ route('get-quote.store') }}" method="post" name="get-quote" id="get-quote" onsubmit="submitForm(event);"> 
-      
-					@if (session('success'))
-            <div class="alert alert-success"  style="color: yellow;">{{ session('success') }}</div>
-        @endif
-      
- @csrf
+                <form action="{{ route('get-quote.store') }}" method="post" name="get-quote" id="get-quote">
+                    @csrf
                     <div class="get-insurance__form">
                         <!-- Form fields here -->
                         <div class="get-insurance__input-box">
@@ -1627,24 +1626,21 @@ latest update &amp; news.</p>
                             </select>
                         </div>
                         <div class="get-insurance__progress">
-                          
-                                <h4 class="get-insurance__progress-title">Limits of Balance:</h4>
-                                <div class="get-insurance__progress-range">
-                                    <p>
-                                        <input type="text" class="balance-range-slider" data-hide-min-max="true" data-step="100" data-from="70000" data-min="0" data-max="90000" value="" />
-                                    </p>
-                                    <div class="get-insurance__balance-box">
-                                        <p class="get-insurance__balance">$<span></span></p>
-                                    </div>
-                                    <input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" type="hidden" name="limitbal" />
+                            <h4 class="get-insurance__progress-title">Limits of Balance:</h4>
+                            <div class="get-insurance__progress-range">
+                                <p>
+                                    <input type="text" class="balance-range-slider" data-hide-min-max="true" data-step="100" data-from="70000" data-min="0" data-max="90000" value="" />
+                                </p>
+                                <div class="get-insurance__balance-box">
+                                    <p class="get-insurance__balance">$<span></span></p>
                                 </div>
+                                <input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" type="hidden" name="limitbal" />
                             </div>
                         </div>
                     </div>
                     <div class="wpcf7-response-output" aria-hidden="true"></div>
                     <button type="submit" class="btn btn-primary">Get a Quote Now</button>
                 </form>
-
             </div>
             <div class="modal-footer">
                 <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
@@ -1656,7 +1652,10 @@ latest update &amp; news.</p>
 <script>
 document.getElementById('get-quote').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the default form submission
-    
+
+    // Show the loading overlay
+    document.getElementById('loading-overlay').style.display = 'block';
+
     // Perform basic validation
     let fullName = document.querySelector('input[name="full_name"]').value;
     let email = document.querySelector('input[name="email"]').value;
@@ -1665,6 +1664,7 @@ document.getElementById('get-quote').addEventListener('submit', function(event) 
 
     if (!fullName || !email || selectedInsurance === 'Select type of insurance' || !limitbal) {
         alert('Please fill in all required fields.');
+        document.getElementById('loading-overlay').style.display = 'none';
         return;
     }
 
@@ -1675,13 +1675,13 @@ document.getElementById('get-quote').addEventListener('submit', function(event) 
     fetch('{{ route('get-quote.store') }}', {
         method: 'POST',
         headers: {
-            'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
         },
         body: formData
     })
     .then(response => response.json())
-    .then(data => {
-        if (data.success) {
+    .then(formData => {
+        if (formData.success) {
             alert('Form submitted successfully!');
             // Optionally, you can close the modal and reset the form
             $('#getQuoteModal').modal('hide');
@@ -1690,7 +1690,14 @@ document.getElementById('get-quote').addEventListener('submit', function(event) 
             alert('There was an error submitting the form. Please try again.');
         }
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while submitting the form.');
+    })
+    .finally(() => {
+        // Hide the loading overlay
+        document.getElementById('loading-overlay').style.display = 'none';
+    });
 });
 </script>
 
@@ -1833,6 +1840,36 @@ document.MM_returnValue = (errors == '');
         .close:hover {
             opacity: 1;
         }
+
+		#loading-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1000; /* Ensure it covers the entire screen */
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
     </style>
 
 </body>
