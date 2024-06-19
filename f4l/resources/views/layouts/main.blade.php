@@ -492,13 +492,27 @@ Ferndale, Randburg</p>
 					<h3 class="footer-widget__title">Newsletter</h3>
 							<p class="footer-widget__newsletter-text">Subscribe our newsletter to get our
 latest update &amp; news.</p>
-				<form class="footer-widget__newsletter-form mc-form" data-url="https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&#038;id=cc0ee8140e">
-			<div class="footer-widget__newsletter-input-box">
-				<input type="email" placeholder="Email Address" name="email">
-				<button type="submit" class="footer-widget__newsletter-btn insur-icon-svg">
-					<i aria-hidden="true" class="  far fa-paper-plane"></i>				</button>
-			</div>
-		</form>
+				<!-- <form class="footer-widget__newsletter-form mc-form" data-url="https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&#038;id=cc0ee8140e"> -->
+					<form class="footer-widget__newsletter-form mc-form" action="{{ route('newsletter.store') }}" method="post" name="newsletter" id="newsletter" onsubmit="submitForm(event);">
+    @csrf
+    <div id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+   
+    @if (session('success'))
+        <div class="alert alert-success">{{ session('success') }}</div>
+    @endif
+
+    <div class="footer-widget__newsletter-input-box">
+        <input type="email" placeholder="Email Address" name="email" id="email" required>
+        <button type="submit" class="footer-widget__newsletter-btn insur-icon-svg">
+            <i aria-hidden="true" class="far fa-paper-plane"></i>
+        </button>
+    </div>
+</form>
+
+
+
 					<div class="footer-widget__phone">
 				<div class="footer-widget__phone-icon">
 					<span aria-hidden="true" class="  icon-telephone"></span>				</div>
@@ -594,6 +608,52 @@ latest update &amp; news.</p>
             </div>
         </div>
     </div>
+
+	<script>
+    function submitForm(event) {
+        event.preventDefault();
+        const form = document.getElementById('newsletter');
+        const loadingOverlay = document.getElementById('loading-overlay');
+        loadingOverlay.style.display = 'block';
+
+        const formData = new FormData(form);
+
+        // Ensure the email field name is correct
+        if (formData.has('EMAIL')) {
+            formData.set('email', formData.get('EMAIL'));
+            formData.delete('EMAIL');
+        }
+
+        console.log(...formData); // Debugging: log form data
+
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            loadingOverlay.style.display = 'none';
+            console.log('Response:', data); // Debugging
+            if (data.success) {
+                alert('Thank you for subscribing!');
+            } else {
+                alert('There was an error. Please try again.');
+            }
+        })
+        .catch(error => {
+            loadingOverlay.style.display = 'none';
+            console.error('Error:', error); // Debugging
+            alert('There was an error. Please try again!!!.');
+        });
+    }
+</script>
+
+
+
 
     <script>
   document.addEventListener('DOMContentLoaded', function () {

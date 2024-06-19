@@ -7,6 +7,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MedicalInsuranceController;
 use App\Http\Controllers\PetInsuranceController;
 use App\Http\Controllers\GetQuoteFormController;
+use App\Http\Controllers\NewsletterController;
 
 Route::get('/', function () {
     return view('index');
@@ -26,3 +27,4 @@ Route::get('/product-pet-insurance/index', [PetInsuranceController::class, 'show
 
 Route::get('/get-quote', [GetQuoteFormController::class, 'show'])->name('get-quote.show');
 Route::post('/get-quote', [GetQuoteFormController::class, 'store'])->name('get-quote.store');
+Route::post('/newsletter', [NewsletterController::class, 'store'])->name('newsletter.store');
