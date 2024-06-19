@@ -503,6 +503,8 @@ latest update &amp; news.</p>
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
 
+    <div id="response-message"></div> <!-- This div will display the response messages -->
+
     <div class="footer-widget__newsletter-input-box">
         <input type="email" placeholder="Email Address" name="email" id="email" required>
         <button type="submit" class="footer-widget__newsletter-btn insur-icon-svg">
@@ -614,7 +616,9 @@ latest update &amp; news.</p>
         event.preventDefault();
         const form = document.getElementById('newsletter');
         const loadingOverlay = document.getElementById('loading-overlay');
+        const responseMessage = document.getElementById('response-message');
         loadingOverlay.style.display = 'block';
+        responseMessage.innerHTML = ''; // Clear previous messages
 
         const formData = new FormData(form);
 
@@ -639,18 +643,20 @@ latest update &amp; news.</p>
             loadingOverlay.style.display = 'none';
             console.log('Response:', data); // Debugging
             if (data.success) {
-                alert('Thank you for subscribing!');
+                responseMessage.innerHTML = `<div class="alert alert-success">${data.message}</div>`;
+                form.reset(); // Clear all input fields
             } else {
-                alert('There was an error. Please try again.');
+                responseMessage.innerHTML = '<div class="alert alert-danger">There was an error. Please try again.</div>';
             }
         })
         .catch(error => {
             loadingOverlay.style.display = 'none';
             console.error('Error:', error); // Debugging
-            alert('There was an error. Please try again!!!.');
+            responseMessage.innerHTML = '<div class="alert alert-danger">There was an error. Please try again!!!.</div>';
         });
     }
 </script>
+
 
 
 
