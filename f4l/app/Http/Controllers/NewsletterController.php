@@ -22,7 +22,7 @@ class NewsletterController extends Controller
         ]);
 
         // Send email
-        Mail::to('eddymnemo45@gmail.com')->send(new NewsletterFormSubmitted($request->all()));
+        Mail::to('leads@friends4life.co.za')->send(new NewsletterFormSubmitted($request->all()));
 
         return response()->json(['success' => true, 'message' => 'Thank you for subscribing!']);
     }
