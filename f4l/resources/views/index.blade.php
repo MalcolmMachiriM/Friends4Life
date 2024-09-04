@@ -726,11 +726,11 @@ to get started!</h2>
                                                             </div>
                                                 <div class="get-insurance__tab">
                             <div class="get-insurance__tab-box tabs-box">
-                                <ul class="tab-buttons clearfix list-unstyled ml-0">
-                                                                            <li data-tab="#Home" class="tab-btn active-btn"><span>Home</span></li>
+                               <ul class="tab-buttons clearfix list-unstyled ml-0">
+                                                     <!--                         <li data-tab="#Home" class="tab-btn active-btn"><span>Home</span></li>
                                                                             <li data-tab="#Vehicles" class="tab-btn "><span>Vehicles</span></li>
                                                                             <li data-tab="#Health" class="tab-btn "><span>Health</span></li>
-                                                                            <li data-tab="#Life" class="tab-btn "><span>Life</span></li>
+                                                                            <li data-tab="#Life" class="tab-btn "><span>Life</span></li> --> 
                                                                     </ul>
                                 <div class="tabs-content">
                                                                             <!--tab-->
@@ -741,6 +741,9 @@ to get started!</h2>
 <p role="status" aria-live="polite" aria-atomic="true">
 <ul></ul>
 </div>
+<div id="loading-overlay" style="display:none;">
+                        <div class="loader"></div>
+                    </div>
 <form action="https://denzel.blec.co.za/#wpcf7-f101-p953-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="101" />
@@ -761,10 +764,18 @@ to get started!</h2>
 			</p>
 </p></div>
 <div class="get-insurance__input-box">
-<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961"><option value="Select type of insurance">Select Type of Insurance</option>
-<option value="Vehicle Insurance">Vehicle Insurance</option>
-<option value="Medical Insurance">Medical Insurance</option>
-<option value="Pet Insurance">Pet Insurance</option></select></span>
+<p><span class="wpcf7-form-control-wrap" data-name="menu-961"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectpicker" aria-required="true" aria-invalid="false" name="menu-961"><option value="">Select Type of Insurance</option>
+<option value="Car Insurance">Car Insurance</option>
+<option value="MedicalInsurance">Medical Insurance</option>
+                                    
+                                    <option value="Pet Insurance">Pet Insurance</option>
+									<option value="Vehicle Tracker">Vehicle Tracker</option>
+									<option value="Car Warranty">Car Warranty</option>
+									<option value="Commercial Insurance">Commercial Insurance</option>
+									<option value="Business Indemnity Insurance">Business Indemnity Insurance</option>
+									<option value="Life Insurance">Life Insurance</option>
+									<option value="Health Insurance">Health Insurance</option>
+								</select></span>
 			</p>
 </p></div>
 </p></div>
@@ -779,7 +790,7 @@ to get started!</h2>
 					value="" />
 				</p>
 <div class="get-insurance__balance-box">
-<p class="get-insurance__balance">$<span></span>
+<p class="get-insurance__balance">R<span></span>
 					</p>
 </p></div>
 <p>			<input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" value="" type="hidden" name="your-price" />
@@ -867,6 +878,9 @@ to get started!</h2>
 <p role="status" aria-live="polite" aria-atomic="true">
 <ul></ul>
 </div>
+<div id="loading-overlay" style="display:none;">
+                        <div class="loader"></div>
+                    </div>
 <form action="https://denzel.blec.co.za/#wpcf7-f101-p953-o3" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="101" />

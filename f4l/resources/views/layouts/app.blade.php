@@ -289,7 +289,7 @@ Ferndale, Randburg</p>
 							<div class="main-menu__main-menu-box">
 								<div class="main-menu__main-menu-box-inner">
 									<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu"><li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu-hide menu-item-2131"><a href="{{ route('home') }}">Home Dark</a></li>
+									<div class="menu-menu-1-container"><ul id="menu-menu-1" class="main-menu__list one-page-scroll-menu">
 <li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-41 current_page_item megamenu-hide menu-item-2132"><a href="{{ route('about.index') }}" aria-current="page">About</a></li>
 <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
 <ul class="sub-menu">
@@ -585,13 +585,13 @@ latest update &amp; news.</p>
                                 </select>
                             </div>
                             <div class="get-insurance__progress">
-                                <h4 class="get-insurance__progress-title">Limits of Balance:</h4>
+                                <h4 class="get-insurance__progress-title text-light">Limits of Balance:</h4>
                                 <div class="get-insurance__progress-range">
                                     <p>
                                         <input type="text" class="balance-range-slider" data-hide-min-max="true" data-step="100" data-from="70000" data-min="0" data-max="90000" value="" />
                                     </p>
                                     <div class="get-insurance__balance-box">
-                                        <p class="get-insurance__balance">$<span></span></p>
+                                        <p class="get-insurance__balance text-light">R<span></span></p>
                                     </div>
                                     <input class="wpcf7-form-control wpcf7-hidden get-insurance__balance__input" type="hidden" name="limitbal" />
                                 </div>
