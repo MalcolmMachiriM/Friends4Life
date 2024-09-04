@@ -6,7 +6,6 @@
 @section('content')
 
 
-
 <div class="mobile-nav__wrapper">
 	<div class="mobile-nav__overlay mobile-nav__toggler"></div>
 	<!-- /.mobile-nav__overlay -->
@@ -320,7 +319,7 @@
 																			<p class="about-one__text-2">Whether it's safeguarding your family's future, protecting your assets, or ensuring access to quality healthcare, we're here to help you every step of the way.</p>
 												<div class="about-one__btn-call">
 															<div class="about-one__btn-box">
-									<a   href="http://layerdrops.com/insurwp/about/" class="thm-btn about-one__btn">Discover More</a>
+									<a   href="{{ route('about.index') }}" class="thm-btn about-one__btn">Discover More</a>
 								</div>
 														<div class="about-one__call">
 								<div class="about-one__call-icon insur-icon-svg">
@@ -393,7 +392,7 @@
 										<div class="services-one__icon insur-icon-svg">
 											<span aria-hidden="true" class="   icon-drive"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="{{ route('car-insurance.index') }}">Vehicle Insurance</a>
+											<a   href="{{ route('car-insurance.index') }}">Car Insurance</a>
 										</h2>
 										<p class="service-one__text">Your vehicle is more than just a mode of transportation</p>
 									</div>
@@ -434,19 +433,37 @@
 								</div>
 							</div>
 							<!--Services One Single End-->
+																		<!--Services One Single End-->
+												<!--Services One Single Start-->
+							<!-- <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+								<div class="services-one__single">
+																			<div class="service-one__img">
+											<img decoding="async" src="wp-content/uploads/2024/08/Untitled-design-20.png" alt="https://friends4life.co.za/">
+										</div>
+																		<div class="service-one__content">
+										<div class="services-one__icon insur-icon-svg">
+											<span aria-hidden="true" class="   icon-home"></span>										</div>
+										<h2 class="service-one__title">
+											<a   href="#contact">Home Insurance</a>
+										</h2>
+										<p class="service-one__text">Safeguard your home and belongings with reliable protection and fast claims.</p>
+									</div>
+								</div>
+							</div> -->
+							<!--Services One Single End-->
 												<!--Services One Single Start-->
 							<div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 								<div class="services-one__single">
 																			<div class="service-one__img">
-											<img decoding="async" src="wp-content/uploads/2024/04/Building-Insurance.png" alt="">
+											<img decoding="async" src="wp-content/uploads/2024/08/Untitled-design-19.png" alt="https://friends4life.co.za/">
 										</div>
 																		<div class="service-one__content">
 										<div class="services-one__icon insur-icon-svg">
-											<svg aria-hidden="true" class="  e-font-icon-svg e-fas-heartbeat" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M320.2 243.8l-49.7 99.4c-6 12.1-23.4 11.7-28.9-.6l-56.9-126.3-30 71.7H60.6l182.5 186.5c7.1 7.3 18.6 7.3 25.7 0L451.4 288H342.3l-22.1-44.2zM473.7 73.9l-2.4-2.5c-51.5-52.6-135.8-52.6-187.4 0L256 100l-27.9-28.5c-51.5-52.7-135.9-52.7-187.4 0l-2.4 2.4C-10.4 123.7-12.5 203 31 256h102.4l35.9-86.2c5.4-12.9 23.6-13.2 29.4-.4l58.2 129.3 49-97.9c5.9-11.8 22.7-11.8 28.6 0l27.6 55.2H481c43.5-53 41.4-132.3-7.3-182.1z"></path></svg>										</div>
+											<span aria-hidden="true" class="   icon-heart-beat"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="#">Building Insurance</a>
+											<a   href="{{ route('health-insurance.index') }}">Health Insurance</a>
 										</h2>
-										<p class="service-one__text">Protecting your property from unexpected events</p>
+										<p class="service-one__text">Ensure your well-being with extensive health coverage for unexpected medical costs.</p>
 									</div>
 								</div>
 							</div>
@@ -455,15 +472,32 @@
 							<div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 								<div class="services-one__single">
 																			<div class="service-one__img">
-											<img decoding="async" src="wp-content/uploads/2024/04/Camera-insurance.png" alt="">
+											<img decoding="async" src="wp-content/uploads/2024/08/Untitled-design-20.png" alt="https://friends4life.co.za/">
+										</div>
+																		<div class="service-one__content">
+										<div class="services-one__icon insur-icon-svg">
+											<span aria-hidden="true" class="   icon-family"></span>										</div>
+										<h2 class="service-one__title">
+											<a   href="{{ route('life-insurance.index') }}">Life Insurance</a>
+										</h2>
+										<p class="service-one__text">Secure your family’s future with dependable coverage and financial support when needed.</p>
+									</div>
+								</div>
+							</div>
+							<!--Services One Single End-->
+												<!--Services One Single Start-->
+							<div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+								<div class="services-one__single">
+																			<div class="service-one__img">
+											<img decoding="async" src="wp-content/uploads/2024/08/Untitled-design-21.png" alt="https://friends4life.co.za/">
 										</div>
 																		<div class="service-one__content">
 										<div class="services-one__icon insur-icon-svg">
 											<span aria-hidden="true" class="   icon-briefcase"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="#">Camera insurance</a>
+											<a   href="{{ route('business-indemnity-insurance.index') }}">Business Indemnity Insurance</a>
 										</h2>
-										<p class="service-one__text">Your gear represents a significant investment</p>
+										<p class="service-one__text">Shield your business from liabilities with robust coverage and expert guidance.</p>
 									</div>
 								</div>
 							</div>
@@ -472,15 +506,15 @@
 							<div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 								<div class="services-one__single">
 																			<div class="service-one__img">
-											<img decoding="async" src="wp-content/uploads/2024/04/Accident-Cover.png" alt="">
+											<img decoding="async" src="wp-content/uploads/2024/08/Untitled-design-22.png" alt="https://friends4life.co.za/">
 										</div>
 																		<div class="service-one__content">
 										<div class="services-one__icon insur-icon-svg">
-											<span aria-hidden="true" class="   icon-fire"></span>										</div>
+											<span aria-hidden="true" class="   icon-select"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="#">Accident Cover</a>
+											<a   href="{{ route('vehicle-tracker.index') }}">Vehicle Tracker</a>
 										</h2>
-										<p class="service-one__text">Accidents can happen when you least expect them</p>
+										<p class="service-one__text">Enhance security with real-time tracking and monitoring for your vehicle's safety.</p>
 									</div>
 								</div>
 							</div>
@@ -489,19 +523,20 @@
 							<div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 								<div class="services-one__single">
 																			<div class="service-one__img">
-											<img decoding="async" src="wp-content/uploads/2024/04/mid-section-unrecognizable-entrepreneur-texting-messages-break-scaled.jpg" alt="">
+											<img decoding="async" src="wp-content/uploads/2024/08/Untitled-design-24.png" alt="https://friends4life.co.za/">
 										</div>
 																		<div class="service-one__content">
 										<div class="services-one__icon insur-icon-svg">
 											<span aria-hidden="true" class="   icon-ring"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="#">Mobile Devices</a>
+											<a   href="{{ route('commercial-insurance.index') }}">Commercial Insurance</a>
 										</h2>
-										<p class="service-one__text">Mobile devices play an integral role in our daily lives</p>
+										<p class="service-one__text">Protect your business assets and operations with tailored, comprehensive commercial coverage.</p>
 									</div>
 								</div>
 							</div>
 							<!--Services One Single End-->
+												<!--Services One Single Start-->
 												<!--Services One Single Start-->
 							<div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 								<div class="services-one__single">
@@ -512,7 +547,7 @@
 										<div class="services-one__icon insur-icon-svg">
 											<span aria-hidden="true" class="   icon-plane"></span>										</div>
 										<h2 class="service-one__title">
-											<a   href="#">Car Warranty</a>
+											<a   href="{{ route('car-warranty.index') }}">Car Warranty</a>
 										</h2>
 										<p class="service-one__text">Comprehensive car warranty plans for peace of mind</p>
 									</div>

@@ -304,14 +304,35 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 <li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2132"><a href="{{ route('about.index') }}">About</a></li>
 <li id="menu-item-2310" class="menu-divitem menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-2310"><a href="#">Insurance Products</a>
 <ul class="sub-menu">
-	<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272"><a href="{{ route('car-insurance.index') }}">Car Insurance</a></li>
-	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368"><a href="{{ route('medical-insurance.index') }}">Medical Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Pet Insurance</a></li>
-	<!-- <li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Building Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Camera Insurance</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Accident Cover</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Mobile Devices</a></li>
-	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367"><a href="{{ route('product-pet-insurance.index') }}">Car Warranty</a></li> -->
+<li id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2272">
+    <a href="{{ route('car-insurance.index') }}">Car Insurance</a>
+</li>
+<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2368">
+    <a href="{{ route('medical-insurance.index') }}">Medical Insurance</a>
+</li>
+<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2367">
+    <a href="{{ route('product-pet-insurance.index') }}">Pet Insurance</a>
+</li>
+<li id="menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2369">
+    <a href="{{ route('vehicle-tracker.index') }}">Vehicle Tracker</a>
+</li>
+<li id="menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2370">
+    <a href="{{ route('car-warranty.index') }}">Car Warranty</a>
+</li>
+<li id="menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2371">
+    <a href="{{ route('commercial-insurance.index') }}">Commercial Insurance</a>
+</li>
+<li id="menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2372">
+    <a href="{{ route('business-indemnity-insurance.index') }}">Business Indemnity Insurance</a>
+</li>
+<li id="menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2373">
+    <a href="{{ route('life-insurance.index') }}">Life Insurance</a>
+</li>
+<li id="menu-item-2374" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2374">
+    <a href="{{ route('health-insurance.index') }}">Health Insurance</a>
+</li>
+
+	
 </ul>
 </li>
 <li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-2134"><a href="{{ route('contact.index') }}">Contact</a></li>
@@ -583,6 +604,12 @@ latest update &amp; news.</p>
                                     <option value="Vehicle Insurance">Car Insurance</option>
                                     <option value="Medical Insurance">Medical Insurance</option>
                                     <option value="Pet Insurance">Pet Insurance</option>
+									<option value="Vehicle Tracker">Vehicle Tracker</option>
+									<option value="Car Warranty">Car Warranty</option>
+									<option value="Commercial Insurance">Commercial Insurance</option>
+									<option value="Business Indemnity Insurance">Business Indemnity Insurance</option>
+									<option value="Life Insurance">Life Insurance</option>
+									<option value="Health Insurance">Health Insurance</option>
                                 </select>
                             </div>
                             <div class="get-insurance__progress">
