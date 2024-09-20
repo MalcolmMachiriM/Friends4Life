@@ -127,7 +127,7 @@
 				<div class="elementor-element elementor-element-20236dac elementor-widget elementor-widget-insur-sidebar" data-id="20236dac" data-element_type="widget" data-widget_type="insur-sidebar.default">
 				<div class="elementor-widget-container">
 			    <div class="insurance-details__need-help">
-                    <div class="insurance-details__need-help-bg" style="background-image: url(../../layerdrops.com/insurwp/wp-content/uploads/2023/03/insurance-details-need-help-bg.jpg)"></div>
+                    <div class="insurance-details__need-help-bg" style="background-image: url(../../layerdrops.com/insurwp/wp-content/uploads/2024/08/insurance-details-need-help-bg.jpg)"></div>
                 <div class="insurance-details__need-help-icon insur-icon-svg">
             <span aria-hidden="true" class="  insur-three-icon-call"></span>        </div>
                     <h2 class="insurance-details__need-help-title">
@@ -146,7 +146,7 @@
 						<div class="elementor-element elementor-element-2aa8b5c7 insurance-details__img-1 elementor-widget elementor-widget-image" data-id="2aa8b5c7" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.23.0 - 05-08-2024 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="770" height="370" src="../wp-content/uploads/2024/08/Untitled-design-34.png" class="attachment-full size-full wp-image-2731" alt="https://friends4life.co.za/" srcset="https://friends4life.co.za/wp-content/uploads/2024/08/Untitled-design-34.png 770w, https://friends4life.co.za/wp-content/uploads/2024/08/Untitled-design-34-300x144.png 300w, https://friends4life.co.za/wp-content/uploads/2024/08/Untitled-design-34-768x369.png 768w, https://friends4life.co.za/wp-content/uploads/2024/08/Untitled-design-34-167x80.png 167w, https://friends4life.co.za/wp-content/uploads/2024/08/Untitled-design-34-570x274.png 570w" sizes="(max-width: 770px) 100vw, 770px" />													</div>
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="770" height="370" src="../wp-content/uploads/2024/08/business.jpg" class="attachment-full size-full wp-image-2305" alt="" />														</div>
 				</div>
 				<div class="elementor-element elementor-element-3d785b6 elementor-widget elementor-widget-heading" data-id="3d785b6" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
